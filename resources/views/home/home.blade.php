@@ -1,0 +1,671 @@
+    @extends('menu') @section('conteudo')
+
+
+    <section class="py-5" style="background: #a03234">
+        <div class="container py-1 py-md-5">
+            <div class="row d-flex align-items-center">
+
+                <div class=" container-fluid col-12 col-md-6 col-lg-6 justify-content-center offset-lg-1 title-conta-digital-pf">
+                    <!--<h1 style="opacity: 1; line-height: 40px; font-family: 'Inter', sans-serif" class="text-center text-md-left text-lg-left text-xl-left d-flex font-weight-bold">Baixe o-->
+                    <!--    app e solicite seu cartão físico EstBank!</h1>-->
+                    <!--<p style="opacity: 1;" class="text-grayscale--400 mt-2 mb-4 text-center text-md-left  text-lg-left  text-xl-left d-flex">-->
+                    <!--    Acesse o app, vá na aba "Cartões" e solicite seu cartão físico EstBank.</p>-->
+                    <h1 style="opacity: 1; line-height: 40px; font-family: 'Inter', sans-serif" class="text-center text-md-left text-lg-left text-xl-left d-flex font-weight-bold">Ofereça o pagamento de honorários parcelado</h1>
+                    <p style="opacity: 1;" class="text-grayscale--400 mt-2 mb-4 text-center text-md-left  text-lg-left  text-xl-left d-flex">
+                        Com a nova parceria entre o EstBank e a OAB, você recebe seus honorários em até 1 dia útil e seu cliente poderá pagar em até 21x no cartão de crédito.</p>
+                       
+                       
+                       <div style="opacity: 1; width:100%;" class="justify-content-center justify-content-lg-start d-flex">
+                   
+               
+                         <a onclick='ga("send", "event", "category", "action", "label");'
+                            data-home="abrir-conta-digital-PJ" title="Saiba Mais"
+                            class="btn button-open-account-extra-white btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center"
+                            href="https://linkdepagamento.estbank.com.br/" target="_blank"> Cadastre-se </a> 
+                    </div>
+                    
+                    
+                     
+                    <div style="opacity: 1; width:100%;" class="justify-content-center justify-content-lg-start d-flex">
+                   
+               
+                         <a onclick='ga("send", "event", "category", "action", "label");'
+                            data-home="abrir-conta-digital-PJ" title="Saiba Mais"
+                            class="btn button-open-account-extra-white btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center"
+                            href="https://www.estbank.com.br/oab" > Saiba Mais </a> 
+                    </div>
+                    
+                    
+                </div>
+
+                <div class=" container col-12 col-md-6 col-xl-5 order-first order-md-last order-lg-last order-xl-last ">
+                    <div class="d-flex" style="position: relative; overflow: hidden; max-width: 400px; max-height: 514px;">
+                        <div aria-hidden="true" style="width: 100%; padding-bottom: 113.158%;"></div>
+                        <img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFD0lEQVQ4y0WUCUyUVxDHZ78FI1VAPKpIi3hFiXgQLYoFRauo0ABW4wEWE0UarSAxXvVCUFMjxNoKkVhPJFZRdtldWEQU7IKWqlCkYlQuuVfOBVeg7H7z75M06SSTNy/5vl9m3vxniIThbiAhN4SQ4y98pWQuiJGgHk0oWE/IDBnDd0N28t2lAVxwgKCfRtCOIvywn6D2k3DHi3D9S2LtSho03CZqy4ukvuxA+ke3WMKtkdSrXi4+snNCQfBUvre1DOogsCYAnLsmFipy5MwRzhwXLoACluEr/llCnBr0HxAgNFyn1t9P2Fh+Ffe0oW6yblW6pSDCyDlrLLjkCb7oMIDfxoFV88H6UDNr1ncgw7+QM719kLGAcEckcnMpISuYKCFsGb2v1Ng25h0k+WeaZC7cY+yqMeB97nFYDg4Dn5RkvjIWnGzDnEwyrroBGd8CmVHgOyH9rJ7jwZlexOqvJPydRrTuMyW19YGKdKqprZWFZR0vBSwpsL9vB8n93xNb90vMh4kRR+AEEZ8j5vNDmFO9+pCxFZy58QJUYaL0DUqLfvtg1YqaqjexXa3NA919Mt4VZ1laNtuhO4y4d6eS+6II1j0CdlQCxyvAKaOYfxnCSCQrXxSZp/veM6cE0IdkPwWyPYneJG4bU3U/HZ1dJnT3dPd3mLrRUlPFNfEhbFxLMEcSeqMkDOwTwFgbIF7JfOpjpnaMJLLgPGHgnP3ugSQHsiQPU5J2BlHLrlnBr85u6W6rr4Kps9naWF+LuvoWfpFyHG82D0fnNgGOsUX/LgWsh5Sw/jQCOK2U5R9t0X52jrEl0de34cwKMp5ZKNHtZaR4F+VOmEpTHkZ/8aIsPwctxnb57csXqH1djbIbKXi8biJqgwmmCAHeM5Stu8hq2uuAiqOLc8STKatOe9PrBD+pPW0Z0aWvbaj8xKIhFeFEDw/TzNzo0TBcOcVVNXVcrM9G+T09nqlUeLg7FCUrJTSuJq7Y4iK/0V5Dc5Ox+mXlq4BB6QnX5dwgGsgWj/SIJLxVEPJnHuMHStSJDCoOB/HT4iK8flaK53otCq6nIjd2Hx7sCMSDC0lIS0qyNtS/xat8TbdqJjlpvYmeJH6nINb7K2DYR8g74Mw6117LCUK/vyT3zCNUb3fHX/dVeJxfCMPNNDzRZqI07z5XPS/j1HNnrfpDm2CMczeI5AilRO/jxoogy1NC3kIxowu9WTMRA3sdZbM/sWmxxKZ5xE2rP8HTy3EoKy1HWVERSv4o5hJDAV6cDLH0JjoDGo+ruDGd+PJ0JSrcBFDjomDNeKH0cS7QuvYh2xWWhJGWD6sVcucShdwxn2BcRPzsWChn3bjGaUejuXytK/dHCslcd4PltscK1nqK8XOX0DWJBEi4xksSLk7XeFZNBrLGwXpxJMzhQhZLSW5d5sgtPjZc5OOE53MV3DSDBhqW2OPDgWGViB47HPGfkmWvo4JvThAZfgRqXUTJ4kx3E/HcGFbPKId+Sr18y63LHDMC7/xtrY3eZG2cTXKtt4O12scOdb6OhraIBS49m0ZTxwZ7BXYLVoriY8n2Yr9NIOgmD7aetbNF1w/aWK+GOuLRrM9ZPbHEfMQZTWJVVq+fJhrlh7q1zueICskY5ELtoU6SKcyOxNT8b9AKYetmCdg0UbaHEoZYktWbCX+Kfadb4YSi5d8YI8cfqY+Y3lO3cXxkffgUMgnJtYaNkZqD7KnFz4a6T64aZP0LTZY0kpPfqVoAAAAASUVORK5CYII=" alt="" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                        <picture>
+                            <source srcset="/img/CONTAPF/heroPfAccount01.png 138w,
+                  /img/CONTAPF/heroPfAccount02.png 275w,
+                     /img/CONTAPF/heroPfAccount03.png 550w" sizes="(max-width: 550px) 100vw, 550px">
+
+
+
+                            <img sizes="(max-width: 550px) 100vw, 550px" srcset="/img/CONTAPF/heroPfAccount01.png 138w,
+                     /img/CONTAPF/heroPfAccount02.png 275w,
+                     /img/CONTAPF/heroPfAccount03.png" src=" /img/CONTAPF/heroPfAccount02.png" alt="" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                        </picture>
+                        <noscript>
+                            <picture>
+                                <source srcset="/img/CONTAPF/heroPfAccount01.png 138w,
+                         /img/CONTAPF/heroPfAccount02.png 275w,
+                        /img/CONTAPF/heroPfAccount03.png" sizes="(max-width: 550px) 100vw, 550px" />
+                                <img loading="lazy" sizes="(max-width: 550px) 100vw, 550px" srcset="/img/CONTAPF/heroPfAccount01.png 138w,
+                         /img/CONTAPF/heroPfAccount02.png 275w,
+                        /img/CONTAPF/heroPfAccount03.png" src="/img/CONTAPF/heroPfAccount03.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                            </picture>
+                        </noscript>
+                    </div>
+                </div>
+
+
+
+            </div>
+    </section>
+
+
+
+    {{-- Inicio dos Cards --}}
+
+    <div class="container-fluid cards py-3">
+        <div class="container">
+            <div class="py-2">
+                <p class="tag-cards py-2">No EstBank você tem:</p>
+            </div>
+
+            <!-- Card PIX -->
+            <div class="owl-carousel owl-theme">
+                <div class="item items item-01">
+                    <div class="title-card">
+                        <div class="title-icon-card">
+                            <picture>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="31px" height="31px" viewBox="0 0 89.000000 90.000000" preserveAspectRatio="xMidYMid meet">
+                                    <g transform="translate(0.000000,90.000000) scale(0.100000,-0.100000)" fill="#a03234" stroke="none">
+                                        <path d="M375 861 c-30 -19 -175 -164 -175 -175 0 -3 16 -6 35 -6 31 0 47 -11 126 -87 l89 -86 89 86 c73 72 94 87 120 87 17 0 31 3 31 6 0 11 -163 171 -187 183 -33 17 -94 13 -128 -8z" />
+                                        <path d="M78 572 c-103 -106 -103 -154 -1 -263 55 -58 71 -69 99 -69 56 0 86 18 159 95 73 77 107 97 140 85 11 -4 53 -42 93 -84 117 -123 151 -127 245 -27 102 109 102 157 -1 263 -55 58 -70 68 -99 68 -50 0 -81 -20 -156 -104 -95 -106 -106 -105 -224 14 -89 89 -90 90 -140 90 -48 0 -52 -2 -115 -68z" />
+                                        <path d="M370 302 c-86 -88 -95 -94 -136 -101 l-35 -6 89 -88 c49 -49 95 -93 103 -98 18 -11 90 -11 108 0 26 17 192 186 184 187 -4 1 -20 5 -36 8 -15 4 -62 41 -109 86 -45 44 -87 80 -92 80 -6 -1 -40 -31 -76 -68z" />
+                                    </g>
+                                </svg>
+                            </picture>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title-text-card">
+                            <span> PIX </span>
+                        </div>
+
+                        <p class="text-card">Transfira rápido com PIX no EstBank.</p>
+                    </div>
+                </div>
+                <!-- Card TED -->
+                <div class="item items item-01">
+                    <div class="title-card">
+                        <div class="title-icon-card">
+                            <picture>
+                                <svg g xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M19.375 15.103A8.001 8.001 0 0 0 8.03 5.053l-.992-1.737A9.996 9.996 0 0 1 17 3.34c4.49 2.592 6.21 8.142 4.117 12.77l1.342.774-4.165 2.214-.165-4.714 1.246.719zM4.625 8.897a8.001 8.001 0 0 0 11.345 10.05l.992 1.737A9.996 9.996 0 0 1 7 20.66C2.51 18.068.79 12.518 2.883 7.89L1.54 7.117l4.165-2.214.165 4.714-1.246-.719zM8.5 14H14a.5.5 0 1 0 0-1h-4a2.5 2.5 0 1 1 0-5h1V7h2v1h2.5v2H10a.5.5 0 1 0 0 1h4a2.5 2.5 0 1 1 0 5h-1v1h-2v-1H8.5v-2z" fill="rgba(160,50,52,1)" />
+                                </svg>
+                            </picture>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title-text-card">
+                            <span> TED </span>
+                        </div>
+
+                        <p class="text-card">Transfira com rapidez e segurança via TED no EstBank.</p>
+                    </div>
+                </div>
+                <!-- Card Boleto -->
+                <div class="item items item-01">
+                    <div class="title-card">
+                        <div class="title-icon-card">
+                            <picture>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2V4H5v16h14zM8 9h8v2H8V9zm0 4h8v2H8v-2z" fill="rgba(160,50,52,1)" />
+                                </svg>
+                            </picture>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title-text-card">
+                            <span> Boletos </span>
+                        </div>
+
+                        <p class="text-card"> Boleto para suas cobranças pessoais e pagamento de contas fáceis no
+                            EstBank. </p>
+                    </div>
+                </div>
+                <!-- Card Cartão virtual -->
+                <div class="item items item-01">
+                    <div class="title-card">
+                        <div class="title-icon-card">
+                            <picture>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 8H4v8h16v-8zm0-2V5H4v4h16zm-6 6h4v2h-4v-2z" fill="rgba(160,50,52,1)" />
+                                </svg>
+                            </picture>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title-text-card">
+                            <span> Cartão Virtual </span>
+                        </div>
+
+                        <p class="text-card">Com segurança em primeiro lugar, o EstBank oferece um cartão virtual para
+                            cada operação.</p>
+                    </div>
+                </div>
+                <!-- Card PAT-->
+                <div class="item items item-01">
+                    <div class="title-card">
+                        <div class="title-icon-card">
+                            <picture>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="32" height="32">
+                                    <path d="M416 0C400 0 288 32 288 176l0 112c0 35.3 28.7 64 64 64l32 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 0-112 0-208c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7L80 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-224.4c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16l0 134.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8L64 16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z" fill="rgba(160,50,52,1)"/>
+                                </svg>
+                            </picture>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title-text-card">
+                            <span class="text-card-title"> PAT (Em breve) </span>
+                        </div>
+                        <p class="text-card">Credenciamento de estabelecimentos para aceitação de moeda eletrônica (credenciadora PAT).</p>
+                    </div>
+                </div>
+                <!-- Card recargas  -->
+                <div class="item items item-01">
+                    <div class="title-card">
+                        <div class="title-icon-card">
+                            <picture>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M7 4v16h10V4H7zM6 2h12a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm6 15a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" fill="rgba(160,50,52,1)" />
+                                </svg>
+                            </picture>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title-text-card">
+                            <span> Recargas </span>
+                        </div>
+
+                        <p class="text-card">
+                            Recarregue seu celular facilmente com o app do EstBank.</p>
+                    </div>
+                </div>
+
+                <!-- Card Emprestimo -->
+                <div class="item items item-01">
+                    <div class="title-card">
+                        <div class="title-icon-card">
+                            <picture>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path d="M5 9a1 1 0 0 1 1 1 6.97 6.97 0 0 1 4.33 1.5h2.17c1.333 0 2.53.58 3.354 1.5H19a5 5 0 0 1 4.516 2.851C21.151 18.972 17.322 21 13 21c-2.79 0-5.15-.603-7.06-1.658A.998.998 0 0 1 5 20H2a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h3zm1.001 3L6 17.022l.045.032C7.84 18.314 10.178 19 13 19c3.004 0 5.799-1.156 7.835-3.13l.133-.133-.12-.1a2.994 2.994 0 0 0-1.643-.63L19 15h-2.111c.072.322.111.656.111 1v1H8v-2l6.79-.001-.034-.078a2.501 2.501 0 0 0-2.092-1.416L12.5 13.5H9.57A4.985 4.985 0 0 0 6.002 12zM4 11H3v7h1v-7zm14-6a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-7-5a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" fill="rgba(160,50,52,1)" />
+                                </svg>
+                            </picture>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title-text-card">
+                            <span class="text-card-title"> Empréstimo </span>
+                        </div>
+                        <p class="text-card">
+                            Crédito fácil com condições especiais no EstBank.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1.7,
+                        loop: true,
+                        nav: false,
+                        indicator: true,
+                        rewind: true,
+                        slideBy: true,
+                        dots: true,
+                        autoplayHoverPause: true,
+                    },
+
+                    600: {
+                        items: 3.1,
+                        loop: false,
+                        indicator: true,
+                        dots: true,
+                        autoplayHoverPause: true,
+                    },
+
+                    700: {
+                        items: 4,
+                    },
+
+                    1200: {
+                        items: 6,
+                        loop: false,
+                        nav: false,
+                        indicator: true,
+                        rewind: true,
+                        slideBy: true,
+                        dots: true,
+                    },
+                },
+
+                center: false,
+            });
+        });
+    </script>
+
+    {{-- FIM DOS CARDS --}} {{-- Para empresas --}}
+    <section>
+        <div class="container py-4 mb-2">
+            <section class="section-apresentation-content py-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
+                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-3 fw-600 tag-section span-geral mb-2 order-sm-first d-sm-flex d-md-none d-lg-none d-xl-none order-first">
+                                EstBank Empresas
+                            </p>
+
+                            <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
+                                <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
+
+                                <picture>
+                                    <source srcset="/img/HOME/empreendedor.webp  160w,
+                                        /img/HOME/empreendedor.webp  320w,
+                                        /img/HOME/empreendedor.webp  640w" sizes="(max-width: 500px) 100vw, 500px">
+                                    <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/empreendedor.webp  160w,
+                                        /img/HOME/empreendedor.webp  320w,
+                                        /img/HOME/empreendedor.webp  640w" src="/img/HOME/FGTSMan" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Homem vendendo cereal p">
+                                </picture>
+                                <noscript>
+                                    <picture>
+                                        <source srcset="/img/HOME/FGTSMan 160w,
+                                            /img/HOME/empreendedor.webp  320w,
+                                            /img/HOME/empreendedor.webp  640w" sizes="(max-width: 500px) 100vw, 500px" />
+                                        <img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/img/HOME/empreendedor.webp  160w,
+                                            /img/HOME/empreendedor.webp  320w,
+                                            /img/HOME/empreendedor.webp  640w" src="/img/HOME/empreendedor.webp " style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center;  border-radius:15px" />
+                                    </picture>
+                                    <noscript>
+                                        <picture>
+                                    </noscript>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5 mb-md-5">
+                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
+                                EstBank Empresas</p>
+                            <h2 style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline title-products">Eficiência financeira
+                                    simplificada.</span> </h2>
+                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Com o EstBank,
+                                você tem a agilidade que precisa na gestão do seu negócio. Oferecemos soluções simples,
+                                para que você se concentre no que realmente importa: o crescimento do seu negócio.</p>
+                            <div style="opacity: 1;">
+                                <a onclick='ga("send", "event", "category", "action", "label");' data-home="conhecer-a-conta-digital-PJ" title="Conhecer a Conta Digital PJ" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://estbank.idez.com.br/app/signup" target="blank">
+                                    Abra sua conta
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    {{-- Adquirência --}}
+
+    <section class="mb-md-5">
+        <div class="container">
+            <section class="section-apresentation-content py-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
+                            {{-- Rotulo da section para o celular --}}
+                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-3 fw-600 tag-section span-geral mb-2 order-sm-first d-sm-flex d-md-none d-lg-none d-xl-none order-first">
+                                EstBank Adquirência
+                            </p>
+
+                            <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
+                                <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
+
+                                <picture>
+                                    <source srcset="/img/HOME/homem-segurando-pos.webp 160w,
+                                        /img/HOME/homem-segurando-pos.webp 320w,
+                                        /img/HOME/homem-segurando-pos.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
+                                    <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/homem-segurando-pos.webp 160w,
+                                        /img/HOME/homem-segurando-pos.webp 320w,
+                                        /img/HOME/homem-segurando-pos.webp 640w" src="/img/HOME/mulher-segurando-pos" webpading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Homem segurando uma máquina de cartão">
+                                </picture>
+                                <noscript>
+                                    <picture>
+                                        <source srcset="/img/HOME/mulher-segurando-pos webpw,
+                                            /img/HOME/homem-segurando-pos.webp 320w,
+                                            /img/HOME/homem-segurando-pos.webp 640w" sizes="(max-width: 500px) 100vw, 500px" />
+                                        <img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/img/HOME/homem-segurando-pos.webp 160w,
+                                            /img/HOME/homem-segurando-pos.webp 320w,
+                                            /img/HOME/homem-segurando-pos.webp 640w" src="/img/HOME/homem-segurando-pos.webp" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center;  border-radius:15px" alt="Homem segurando uma máquina de cartão" />
+                                    </picture>
+                                </noscript>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5 mb-md-5">
+                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
+                                EstBank Adquirência</p>
+                            <h2 style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline  title-products">Aumente sua produtividade com as
+                                    maquininhas EstBank.</span></h2>
+                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Nossas
+                                maquininhas facilitam suas transações e aumentam suas vendas. Além disso, oferecemos
+                                segurança e praticidade na gestão financeira do seu negócio.</p>
+                            <div style="opacity: 1;"><a onclick='ga("send", "event", "category", "action", "label");' data-home="maquininhas" title="Conheça as maquininhas do Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/adquirencia"> Conheças as maquininhas </a></div>
+                            <div style="opacity: 1;"><a onclick='ga("send", "event", "category", "action", "label");' data-home="maquininhas" title="Solicite uma máquininha" class="btn btn--outline btn--lg rounded-4 fs-14 fw-600 text-none mt-2 text-md-center" href="/adquira"> Solicitar maquininha </a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    {{-- Assitencias --}}
+
+    <section class="mb-md-5">
+        <div class="container">
+            <section class="section-apresentation-content py-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
+                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-3 fw-600 tag-section span-geral mb-2 order-sm-first d-sm-flex d-md-none d-lg-none d-xl-none order-first">
+                                EstBank Assistência
+                            </p>
+                            <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
+                                <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
+
+                                <picture>
+                                    <source srcset="/img/HOME/doutor-paciente.webp 160w,
+                                        /img/HOME/doutor-paciente.webp 320w,
+                                        /img/HOME/doutor-paciente.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
+                                    <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/doutor-paciente.webp 160w,
+                                        /img/HOME/doutor-paciente.webp 320w,
+                                        /img/HOME/doutor-paciente.webp 640w" src="/img/EMPRESTIMO/FGTSMan" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Médico conversando com paciente">
+                                </picture>
+                                <noscript>
+                                    <picture>
+                                        <source srcset="/img/EMPRESTIMO/FGTSMan 160w,
+                                            /img/HOME/doutor-paciente.webp 320w,
+                                            /img/HOME/doutor-paciente.webp 640w" sizes="(max-width: 500px) 100vw, 500px" />
+                                        <img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/img/HOME/doutor-paciente.webp 160w,
+                                            /img/HOME/doutor-paciente.webp 320w,
+                                            /img/HOME/doutor-paciente.webp 640w" src="/img/HOME/doutor-paciente.webp" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center;  border-radius:15px" alt="Médico conversando com paciente" />
+                                    </picture>
+                                </noscript>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5 mb-md-5">
+                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
+                                EstBank Assistências</p>
+                            <h2 style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline  title-products"> Cuidado completo com o EstBank. </span>
+                            </h2>
+                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Nossos planos
+                                têm o melhor conjunto de assistências e benefícios, com serviços de excelência
+                                credenciados em todo o Brasil.</p>
+                            <div style="opacity: 1;">
+                                <a onclick='ga("send", "event", "category", "action", "label");' data-home="conhecer-o-estassist" title="Conheça o programa de assistências do Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/estassist"> Conheça o Estassist </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    {{-- Emprestimo --}}
+    <section>
+        <div class="container">
+            <section class="section-apresentation-content py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
+                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-3 fw-600 tag-section span-geral mb-2 order-sm-first d-sm-flex d-md-none d-lg-none d-xl-none order-first">
+                                EstBank Empréstimos</p>
+                            <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
+                                <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
+
+                                <picture>
+                                    <source srcset="/img/HOME/man-loan.webp 160w,
+                                        /img/HOME/man-loan.webp 320w,
+                                        /img/HOME/man-loan.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
+                                    <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/man-loan.webp 160w,
+                                        /img/HOME/man-loan.webp 320w,
+                                        /img/HOME/man-loan.webp 640w" src="/img/EMPRESTIMO/FGTSMan" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Homem sentado com uma mulher de frente para um computador">
+                                </picture>
+                                <noscript>
+                                    <picture>
+                                        <source srcset="/img/EMPRESTIMO/FGTSMan 160w,
+                                            /img/HOME/man-loan.webp 320w,
+                                            /img/HOME/man-loan.webp 640w" sizes="(max-width: 500px) 100vw, 500px" />
+                                        <img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/img/HOME/man-loan.webp 160w,
+                                            /img/HOME/man-loan.webp 320w,
+                                            /img/HOME/man-loan.webp 640w" src="/img/HOME/man-loan.webp" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center;  border-radius:15px" alt="Homem sentado com uma mulher de frente para um computador" />
+                                    </picture>
+                                </noscript>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5 mb-md-5">
+                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
+                                EstBank Empréstimos</p>
+                            <h2 class="title-content-itens" style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline  title-products">Crédito fácil com o EstBank.</span></h2>
+                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Com o EstBank,
+                                você tem opções de crédito que são feitas especialmente para você. Não perca mais tempo,
+                                escolha o EstBank para suas necessidades financeiras.</p>
+                            <div style="opacity: 1;">
+                                <a onclick='ga("send", "event", "category", "action", "label");' data-home="conheca-o-emprestimo-estbank" title="Conheça o empréstimo Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/emprestimo">
+                                    Conheça o Emprestimo do EstBank
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+
+    <section class="py-5">
+        <div class="container py-2 py-md-2" style="background: #a03234; border-radius: 30px;">
+            <div class="row d-flex align-items-center justify-content-center py-5">
+                <div class="container col-12 col-md-6 col-lg-4 justify-content-center offset-lg-1 title-conta-digital-pf">
+                    <h3 style="opacity: 1;" class="fs-24 lh-30 fs-lg-32 fs-xl-40 lh-lg-40 lh-xl-50 text-center text-md-left text-lg-left text-xl-left d-flex mockup-title font-weight-bold">
+                        Abra sua conta hoje, e comece a usar!</h3>
+
+                    <div style="opacity: 1; width: 100%;" class="d-flex justify-content-center justify-content-md-start">
+                        <a onclick='ga("send", "event", "category", "action", "label");' data-home="conhecer-a-conta-digital-PJ" title="Abra sua conta" class="btn button-open-account-extra-white btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" data-name="Abra sua conta" href="https://estbank.idez.com.br/app/signup" target="_blank">
+                            Abra sua conta
+                        </a>
+                    </div>
+
+                    <p style="opacity: 1;" class="fs-18 lh-22 text-grayscale--400 mt-4 text-center text-md-left text-lg-left text-xl-left d-flex d-flex justify-content-md-start justify-content-center">
+                        Ou baixe nosso aplicativo:</p>
+
+                    <div class="mt-2 mb-5 d-flex justify-content-center justify-content-md-start">
+                        <div class="google-play" style="margin-right: 10px;">
+                            <a onclick='ga("send", "event", "category", "action", "label");' href="https://play.google.com/store/apps/details?id=br.com.idez.estbank&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="blank" title="Baixar o aplicativo para Android" data-name="baixar-para-android">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="142" height="41" viewBox="0 0 142 41">
+                                    <g id="svgexport-19_1_" data-name="svgexport-19 (1)" transform="translate(-0.5 -0.5)">
+                                        <path id="Caminho_3" data-name="Caminho 3" d="M.5,9A8.5,8.5,0,0,1,9,.5H134A8.5,8.5,0,0,1,142.5,9V33a8.5,8.5,0,0,1-8.5,8.5H9A8.5,8.5,0,0,1,.5,33ZM9,1.5A7.5,7.5,0,0,0,1.5,9V33A7.5,7.5,0,0,0,9,40.5H134a7.5,7.5,0,0,0,7.5-7.5V9A7.5,7.5,0,0,0,134,1.5Z" fill="#fff" fill-rule="evenodd" />
+                                        <path id="Caminho_4" data-name="Caminho 4" d="M52.281,19.617v1.688h4.047a3.525,3.525,0,0,1-.921,2.123,4.157,4.157,0,0,1-3.126,1.235,4.488,4.488,0,0,1,0-8.976,4.316,4.316,0,0,1,3.048,1.205l1.195-1.19A5.916,5.916,0,0,0,52.28,14a6.176,6.176,0,1,0,0,12.35A5.666,5.666,0,0,0,56.6,24.617a5.562,5.562,0,0,0,1.465-3.947,5.52,5.52,0,0,0-.09-1.053H52.281Zm19.112,5.166a2.415,2.415,0,1,1,2.252-2.409,2.3,2.3,0,0,1-2.252,2.409Zm0-6.384a3.975,3.975,0,1,0,4,3.975A3.924,3.924,0,0,0,71.393,18.4Zm-8.729,6.384a2.415,2.415,0,1,1,2.252-2.409,2.3,2.3,0,0,1-2.252,2.409Zm0-6.384a3.975,3.975,0,1,0,4,3.975A3.924,3.924,0,0,0,62.664,18.4ZM80.1,24.783a2.284,2.284,0,0,1-2.22-2.4,2.3,2.3,0,0,1,2.22-2.424,2.243,2.243,0,0,1,2.13,2.424A2.224,2.224,0,0,1,80.1,24.783Zm2.01-5.5h-.061a2.773,2.773,0,0,0-2.1-.886,3.978,3.978,0,0,0,0,7.95,2.726,2.726,0,0,0,2.1-.9h.06v.57a2.039,2.039,0,0,1-2.13,2.336,2.211,2.211,0,0,1-2.008-1.415l-1.524.632a3.793,3.793,0,0,0,3.532,2.35c2.053,0,3.79-1.206,3.79-4.144V18.638h-1.66v.647Zm2.867,6.825h1.75V14.423h-1.75Zm4.334-3.858a2.182,2.182,0,0,1,2.083-2.316,1.546,1.546,0,0,1,1.481.842l-3.564,1.474Zm5.435-1.324a3.7,3.7,0,0,0-3.413-2.53,3.781,3.781,0,0,0-3.758,3.974,3.9,3.9,0,0,0,3.956,3.978,3.976,3.976,0,0,0,3.323-1.763l-1.36-.9a2.283,2.283,0,0,1-1.963,1.1,2.024,2.024,0,0,1-1.933-1.2l5.331-2.2ZM103,20.055h-2.489V16.049H103a2,2,0,1,1,0,4.006Zm-.045-5.632H98.761V26.108h1.748V21.681h2.444a3.635,3.635,0,1,0,0-7.258Zm4.808,11.687h1.748V14.423h-1.748Zm5.833-1.33c-.574,0-1.37-.284-1.37-.992,0-.9.993-1.248,1.852-1.248a3.1,3.1,0,0,1,1.6.393,2.117,2.117,0,0,1-2.081,1.847Zm.211-6.405a3.284,3.284,0,0,0-3.121,1.792l1.553.645a1.663,1.663,0,0,1,1.6-.858,1.685,1.685,0,0,1,1.839,1.5v.12a3.881,3.881,0,0,0-1.823-.45c-1.675,0-3.376.915-3.376,2.63a2.7,2.7,0,0,0,2.906,2.57,2.475,2.475,0,0,0,2.234-1.142h.059v.9h1.689v-4.48C117.364,19.534,115.81,18.375,113.805,18.375Zm7.7,5.323h-.06l-2.082-5.065h-1.881l3.118,7.08-1.778,3.94h1.823l4.811-11.02h-1.945L121.508,23.7ZM17.5,9.137a1,1,0,0,1,.994-.01L37.435,19.756a2,2,0,0,1,0,3.488L18.489,33.872A1,1,0,0,1,17,33V10a1,1,0,0,1,.495-.863Zm6.06,5.126,5.662,5.805,1.657-1.7-7.32-4.1Zm9.125,5.119L30.614,21.5l2.066,2.118L36.456,21.5Zm-1.806,5.25-1.657-1.7-5.662,5.805,7.32-4.106ZM19,30.541V12.458L27.82,21.5,19,30.543Z" fill="#fff" fill-rule="evenodd" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="apple-store">
+                            <a onclick='ga("send", "event", "category", "action", "label");' href="https://apps.apple.com/br/app/estbank/id1615822147" target="blank" title="Baixar o aplicativo para IOS" data-name="baixar-no-iphone-ipad">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="142" height="41" viewBox="0 0 142 41">
+                                    <g id="svgexport-18" transform="translate(-0.5 -0.5)">
+                                        <path id="Caminho_5" data-name="Caminho 5" d="M.5,9A8.5,8.5,0,0,1,9,.5H134A8.5,8.5,0,0,1,142.5,9V33a8.5,8.5,0,0,1-8.5,8.5H9A8.5,8.5,0,0,1,.5,33ZM9,1.5A7.5,7.5,0,0,0,1.5,9V33A7.5,7.5,0,0,0,9,40.5H134a7.5,7.5,0,0,0,7.5-7.5V9A7.5,7.5,0,0,0,134,1.5Z" fill="#fff" fill-rule="evenodd" />
+                                        <path id="Caminho_6" data-name="Caminho 6" d="M37.974,19.869a4.638,4.638,0,0,1,2.225-3.9,4.79,4.79,0,0,0-3.769-2.027c-1.584-.164-3.123.945-3.933.945s-2.065-.927-3.4-.9a5.019,5.019,0,0,0-4.227,2.558c-1.824,3.143-.463,7.76,1.285,10.3.878,1.245,1.9,2.635,3.24,2.586,1.308-.054,1.8-.83,3.378-.83s2.025.83,3.391.8c1.408-.024,2.292-1.252,3.137-2.507A10.16,10.16,0,0,0,40.73,24a4.489,4.489,0,0,1-2.756-4.128ZM36.447,9a4.692,4.692,0,0,0-3.03,1.557,4.347,4.347,0,0,0-1.08,3.156,3.88,3.88,0,0,0,3.056-1.436A4.552,4.552,0,0,0,36.447,9Zm15.98,13.246,1.748-5.112h.049l1.747,5.112H52.427Zm.807-7.05L49,26.848h1.891l1.076-3.15h4.47l1.07,3.15h1.926L55.2,15.195H53.235Zm11.28,10.263c-1.342,0-2.243-1.145-2.243-2.859,0-1.694.9-2.85,2.243-2.85,1.365,0,2.261,1.13,2.261,2.85C66.775,24.338,65.879,25.459,64.514,25.459Zm.462-7.195a3.037,3.037,0,0,0-2.722,1.5h-.032V18.352h-1.7V29.66h1.754V25.453h.041a2.9,2.9,0,0,0,2.69,1.485c2.146,0,3.569-1.695,3.569-4.337s-1.43-4.336-3.6-4.336Zm8.949,7.195c-1.342,0-2.243-1.145-2.243-2.859,0-1.694.9-2.85,2.243-2.85,1.365,0,2.261,1.13,2.261,2.85C76.186,24.338,75.289,25.459,73.925,25.459Zm.462-7.195a3.037,3.037,0,0,0-2.722,1.5h-.033V18.352h-1.7V29.66h1.756V25.453h.04a2.907,2.907,0,0,0,2.691,1.485c2.146,0,3.569-1.695,3.569-4.337s-1.43-4.336-3.6-4.336Zm13.616,2-1.292-.314c-1.512-.373-2.13-.857-2.13-1.68,0-1.035.97-1.745,2.381-1.745s2.382.7,2.489,1.865h1.771C91.167,16.382,89.466,15,86.988,15c-2.5,0-4.269,1.382-4.269,3.392,0,1.625,1,2.627,3.154,3.143l1.52.364c1.52.37,2.162.913,2.162,1.817,0,1.041-1.064,1.8-2.544,1.8-1.543,0-2.672-.76-2.8-1.914h-1.8c.114,2.108,1.87,3.44,4.471,3.44,2.78,0,4.53-1.366,4.53-3.547,0-1.7-1-2.663-3.41-3.23ZM95.2,16.34H93.433v2.013h-1.24v1.38h1.24V24.6c0,1.646.675,2.293,2.406,2.293a4.805,4.805,0,0,0,.975-.082v-1.37q-.287.032-.577.038c-.712,0-1.04-.338-1.04-1.066V19.734h1.626V18.353H95.2V16.341Zm6.622,9.177c-1.423,0-2.267-1.075-2.267-2.918,0-1.823.844-2.915,2.267-2.915s2.271,1.083,2.271,2.915-.848,2.918-2.271,2.918Zm0-7.269c-2.47,0-4.055,1.68-4.055,4.351s1.569,4.356,4.055,4.356,4.057-1.674,4.057-4.356-1.578-4.35-4.057-4.35Zm7.218,1.55H109V18.352h-1.676v8.5h1.755V21.81a1.763,1.763,0,0,1,1.83-1.955,2.483,2.483,0,0,1,.787.1V18.328a2.746,2.746,0,0,0-.6-.064A2.04,2.04,0,0,0,109.037,19.8Zm4.817,2.019a2.157,2.157,0,0,1,2.177-2.155,2.049,2.049,0,0,1,2.1,2.155Zm2.177-3.57c-2.4,0-3.958,1.731-3.958,4.393s1.545,4.316,4.032,4.316c1.935,0,3.446-1.06,3.682-2.6h-1.665a1.938,1.938,0,0,1-1.976,1.193,2.219,2.219,0,0,1-2.3-2.407v-.1h6.038v-.6c0-2.578-1.487-4.191-3.853-4.191Z" fill="#fff" fill-rule="evenodd" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container col-12 col-md-5 col-xl-5 order-first justify-content-center order-md-last order-lg-last order-xl-last">
+                    <div style="position: relative; overflow: hidden; max-width: 400px; max-height: 514px;">
+
+
+                        <div class="" style="position:relative;overflow:hidden;max-width:550px;max-height:499px">
+
+                            <div aria-hidden="true" style="width:100%;padding-bottom:90.57971014492753%"></div>
+                            <img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFD0lEQVQ4y0WUCUyUVxDHZ78FI1VAPKpIi3hFiXgQLYoFRauo0ABW4wEWE0UarSAxXvVCUFMjxNoKkVhPJFZRdtldWEQU7IKWqlCkYlQuuVfOBVeg7H7z75M06SSTNy/5vl9m3vxniIThbiAhN4SQ4y98pWQuiJGgHk0oWE/IDBnDd0N28t2lAVxwgKCfRtCOIvywn6D2k3DHi3D9S2LtSho03CZqy4ukvuxA+ke3WMKtkdSrXi4+snNCQfBUvre1DOogsCYAnLsmFipy5MwRzhwXLoACluEr/llCnBr0HxAgNFyn1t9P2Fh+Ffe0oW6yblW6pSDCyDlrLLjkCb7oMIDfxoFV88H6UDNr1ncgw7+QM719kLGAcEckcnMpISuYKCFsGb2v1Ng25h0k+WeaZC7cY+yqMeB97nFYDg4Dn5RkvjIWnGzDnEwyrroBGd8CmVHgOyH9rJ7jwZlexOqvJPydRrTuMyW19YGKdKqprZWFZR0vBSwpsL9vB8n93xNb90vMh4kRR+AEEZ8j5vNDmFO9+pCxFZy58QJUYaL0DUqLfvtg1YqaqjexXa3NA919Mt4VZ1laNtuhO4y4d6eS+6II1j0CdlQCxyvAKaOYfxnCSCQrXxSZp/veM6cE0IdkPwWyPYneJG4bU3U/HZ1dJnT3dPd3mLrRUlPFNfEhbFxLMEcSeqMkDOwTwFgbIF7JfOpjpnaMJLLgPGHgnP3ugSQHsiQPU5J2BlHLrlnBr85u6W6rr4Kps9naWF+LuvoWfpFyHG82D0fnNgGOsUX/LgWsh5Sw/jQCOK2U5R9t0X52jrEl0de34cwKMp5ZKNHtZaR4F+VOmEpTHkZ/8aIsPwctxnb57csXqH1djbIbKXi8biJqgwmmCAHeM5Stu8hq2uuAiqOLc8STKatOe9PrBD+pPW0Z0aWvbaj8xKIhFeFEDw/TzNzo0TBcOcVVNXVcrM9G+T09nqlUeLg7FCUrJTSuJq7Y4iK/0V5Dc5Ox+mXlq4BB6QnX5dwgGsgWj/SIJLxVEPJnHuMHStSJDCoOB/HT4iK8flaK53otCq6nIjd2Hx7sCMSDC0lIS0qyNtS/xat8TbdqJjlpvYmeJH6nINb7K2DYR8g74Mw6117LCUK/vyT3zCNUb3fHX/dVeJxfCMPNNDzRZqI07z5XPS/j1HNnrfpDm2CMczeI5AilRO/jxoogy1NC3kIxowu9WTMRA3sdZbM/sWmxxKZ5xE2rP8HTy3EoKy1HWVERSv4o5hJDAV6cDLH0JjoDGo+ruDGd+PJ0JSrcBFDjomDNeKH0cS7QuvYh2xWWhJGWD6sVcucShdwxn2BcRPzsWChn3bjGaUejuXytK/dHCslcd4PltscK1nqK8XOX0DWJBEi4xksSLk7XeFZNBrLGwXpxJMzhQhZLSW5d5sgtPjZc5OOE53MV3DSDBhqW2OPDgWGViB47HPGfkmWvo4JvThAZfgRqXUTJ4kx3E/HcGFbPKId+Sr18y63LHDMC7/xtrY3eZG2cTXKtt4O12scOdb6OhraIBS49m0ZTxwZ7BXYLVoriY8n2Yr9NIOgmD7aetbNF1w/aWK+GOuLRrM9ZPbHEfMQZTWJVVq+fJhrlh7q1zueICskY5ELtoU6SKcyOxNT8b9AKYetmCdg0UbaHEoZYktWbCX+Kfadb4YSi5d8YI8cfqY+Y3lO3cXxkffgUMgnJtYaNkZqD7KnFz4a6T64aZP0LTZY0kpPfqVoAAAAASUVORK5CYII=" alt="" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
+                            <picture>
+                                <source srcset="/img/HOME/appLoja125x138.png 138w,
+                        /img/HOME/appLojas275x250.png 275w,
+                        /img/HOME/appLojas550x499.png 550w" sizes="(max-width: 550px) 100vw, 550px">
+
+
+
+                                <img sizes="(max-width: 550px) 100vw, 550px" srcset="/img/HOME/appLoja125x138.png 138w,
+                        /img/HOME/appLojas275x250.png 275w,
+                        /img/HOME/appLojas550x499.png" src=" /img/HOME/appLojas275x250.png" alt="" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                            </picture>
+                            <noscript>
+                                <picture>
+                                    <source srcset="/img/HOME/appLoja125x138.png 138w,
+                            /img/HOME/appLojas275x250.png 275w,
+                            /img/HOME/appLojas550x499.png" sizes="(max-width: 550px) 100vw, 550px" />
+                                    <img loading="lazy" sizes="(max-width: 550px) 100vw, 550px" srcset="/img/HOME/appLoja125x138.png 138w,
+                            /img/HOME/appLojas275x250.png 275w,
+                            /img/HOME/appLojas550x499.png" src="/img/HOME/appLojas550x499.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                                </picture>
+                            </noscript>
+
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    {{-- CSS do Carousel --}}
+
+    <style>
+        .swiper {
+            margin-top: 73px;
+            width: 100%;
+            height: auto;
+        }
+
+        /* Caso eu queira alterar o seletor (bolinha) */
+        .swiper-pagination span {
+            color: brown;
+            border: solid 1px white;
+            background-color: #fff;
+        }
+
+        /* Para alterar o estilo da seta */
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            /* color: #FFF; */
+
+            color: white;
+        }
+
+        .slide-1 {
+            background-color: blue;
+        }
+
+        .slide-2 {
+            background-color: red;
+        }
+
+        .slide-3 {
+            background-color: green;
+        }
+
+        .swiper-button-prev {
+            padding-left: 30px;
+        }
+
+        .swiper-button-next {
+            padding-right: 30px;
+        }
+
+        .swiper-slide img {
+            max-width: 1550px;
+        }
+    </style>
+
+    {{-- Javascript do Carousel --}}
+
+    <script>
+        const swiper = new Swiper(".swiper", {
+            // Optional parameters
+            direction: "horizontal",
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: ".swiper-pagination",
+                // el: '.hide',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: ".swiper-scrollbar",
+            },
+
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: true,
+            },
+
+            effect: "fade",
+            fadeEffect: {
+                crossFade: true,
+            },
+        });
+    </script>
+
+    {{-- Fim do Javascript do Carousel --}}
+
+    @endsection

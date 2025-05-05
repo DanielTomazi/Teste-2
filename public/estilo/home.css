@@ -1,0 +1,19 @@
+/* Geral */
+
+
+/* Import das folhas de estilo usadas */
+
+@import "body.css";
+@import "menu.css";
+@import "home.css";
+@import "mockup.css";
+/* @import "adquirencia.css";
+@import "assistencias.css";
+@import "conta-digital-PF.css";  */
+/* @import "emprestimo.css";  */
+/* @import "ajuda.css"; */
+/* @import "cambio.css"; */
+@import "form.css";
+/* @import "modal.css";
+@import "adquirencia-form.css";
+ */

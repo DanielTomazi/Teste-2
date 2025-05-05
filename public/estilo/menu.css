@@ -1,0 +1,124 @@
+nav {
+
+    font-family: 'Helvetica', sans-serif;
+    background-color: #fff;
+    border-bottom: solid #e7e7e7 1px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+ 
+.dropdown-item
+{
+    font-size: 14px;
+
+}
+.dropdown-item:hover{
+    background-color: #a0323425 !important;
+}
+
+.logo img {
+    max-width: 150px;
+    padding-left: 20px;
+}
+
+.navbar-collapse
+{
+    padding-left:10px ;
+}
+
+
+header{
+    position: fixed;
+    min-width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.btn-open
+{
+    background: #a03234;
+    color: #fff;
+    margin-right:10px;
+}
+
+
+.btn-open:hover{
+    background:#964c4d;
+}
+
+
+.btn-acess
+{
+    background: none;
+    color: #a03234;
+    border: solid 1px #a03234 !important;
+    transition: .3s;
+
+}
+
+
+.btn-acess:hover{
+    background-color: #a03234;
+    color: #fff;
+    transition: .3s;
+}
+
+#menu-hamburger-icon
+{
+    border-color: transparent;
+    color: #a03234!important;
+}
+
+.open-body{
+    background-color: #a03234;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    cursor: pointer;
+
+}
+
+.open-body a, .open-body a:hover {
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+
+.open-body:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #a03234b9;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/* Dropdown */
+
+
+.dropdown:hover>.dropdown-menu
+ {
+    display: block;
+}
+
+
+
+
+
+@media (max-width: 768px)
+{
+    
+header {
+    position: relative;
+}
+
+.home
+{
+    margin-top: 0px !important;
+}
+
+
+}

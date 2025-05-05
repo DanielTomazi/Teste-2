@@ -1,0 +1,1102 @@
+/* Variáveis das Cores */
+:root {
+    --main-color: #a03234;
+    --gray-400: #7e7e7e;
+    --gray-600:#424A59;
+    --black-100:rgba(0, 0, 0, 0);
+}
+/* Root */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ================================================================ Start Root ======================================================================== */
+/* Start Root do bootstrap nos textos */
+p{
+    margin-bottom: 0 !important;
+   /* O bootstrap adiciona automaticamente uma margin bottom nos paragráfos, aqui estou tirando essa configuração*/
+}
+h2 {
+    font-weight: bold !important;
+    font-size: 28px !important;
+}
+h3 {
+    font-weight: bold !important;
+}
+/* End Root do bootstrap nos textos */
+/* Tags da section de apresentação de produtos com o nome introdutório da sessão */
+.span-mobile-only{
+    display: none;
+}
+.span-geral {
+    margin-top: 10px;
+    color: var(--gray-400);
+}
+.span{
+    margin-bottom: 15px;
+}
+/* Fim tags da section de apresentação de produtos com o nome introdutório da sessão */
+/* Título dos produtos (apresentação) Ex: "A agilidade que você precisa" */
+.title-products{
+    color: var(--black);
+    font-weight: bold;
+}
+/* Title do hero das páginas conta digital PF e PJ, Empréstimo*/
+.hero-text-title {
+    line-height: 28px;
+    font-size: 26px !important;
+}
+
+.hero-text
+{
+    margin-top: 5px;
+    line-height: 23px !important;
+}
+
+/* ================================================================ End Root ======================================================================== */
+body{
+    min-width: 100%;
+    max-width: 100%;
+    font-family: 'Inter', sans-serif !important;
+}
+/* Botões */
+
+.button-open-account-extra-white{
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    margin-top: 1.5rem!important;
+    text-align: center!important;
+    border-radius: .8rem!important;
+    background: #fff;
+    color: var(--main-color);
+    text-transform: none!important;
+    align-items: center;
+    box-shadow: none;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: .3px;
+    outline: none;
+    padding: 9px 20px 7px;
+    transition: all .3s ease;
+    width: 100%;
+    max-width: 360px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold !important;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.btn-red--extra{
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    margin-top: 1.5rem!important;
+    text-align: center!important;
+    border-radius: .8rem!important;
+    background: var(--main-color);
+    color: var(--white);
+    text-transform: none!important;
+    align-items: center;
+    box-shadow: none;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: .3px;
+    outline: none;
+    padding: 9px 20px 7px;
+    transition: all .3s ease;
+    width: 100%;
+    max-width: 360px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+    transform-origin: bottom;
+}
+.btn--outline{
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    margin-top: 1.5rem!important;
+    border-radius: .8rem!important;
+    text-transform: none!important;
+    align-items: center;
+    box-shadow: none;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: .3px;
+    outline: none;
+    padding: 9px 20px 7px;
+    transition: all .3s ease;
+    width: 100%;
+    max-width: 360px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    border: 1px solid var(--main-color) !important;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: var(--main-color);
+    height: 40px;
+    cursor: pointer;
+}
+
+ 
+
+
+/* ===================== Hover dos botões ================== */
+
+.button-open-account-extra-white:hover{
+    color: var(--white) !important;
+    background-color: transparent;
+    border: none !important;
+    transition: 0.4s;
+    border: solid 1px var(--white) !important;
+}
+
+.btn-red--extra:hover{
+   
+background-color: var(--white);
+color: var(--main-color) !important;
+border: solid 1px var(--main-color);
+
+}
+
+.btn--outline:hover{
+    color: var(--white);
+    background-color: var(--gray-400);
+    border: none !important;
+    transition: 0.5s;
+ }
+
+
+
+/* ===================== Final das estilizações dos botões da página ================== */ 
+
+
+
+
+
+
+
+
+/* Padrão de estilo de todas as primeiras sections da página, usado para dar um "espaço" na primeira section devido o navbar fixed */
+.section-one {
+    margin-top: 73px;
+}
+/* Fim section one */
+/*====================================================== Start Tela de Home ========================================================= */
+/* Section de apresentação de produtos */
+.section-apresentation-content {
+    text-align: left;
+    font-family: 'Inter',Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.67;
+    letter-spacing: .3px;
+    box-sizing: border-box;
+    display: block;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+/* Fim section de apresentação de produtos */
+/*====================================================== End Tela de Home ========================================================= */
+/*====================================================== Start Tela de Câmbio ========================================================= */
+/* Câmbio */
+.cambio-hero {
+    background-image: url("/img/CAMBIO/hero-cambio.webp");
+    background-size: cover;
+    background-position: center center;
+    min-height: 70vh;
+    align-items: center;
+    display: flex;
+
+}
+/*====================================================== End Tela de Câmbio ========================================================= */
+
+/*====================================================== Start Tela de Adquirência ========================================================= */
+
+/* Adquirencia */
+
+.adquirencia-hero{
+    background-image: url("/img/ADQUIRENCIA/adquirencia-hero.webp");
+    background-size: cover;
+    background-position: center center;
+    min-height: 514px;
+}
+.cards-texts h2,.cards-texts ul li p{
+    margin-bottom:10px!important 
+}
+.card-box{
+    min-height:400px;
+    min-width:240px;
+    border-radius:10px 20px 10px 10px;
+    background:var(--white);
+    box-shadow:0 4px 42px rgba(0,0,0,.25) 
+}
+.cards-texts{
+    padding:30px 
+}
+.cards-texts ul li p{
+    font-family:Helvetica,sans-serif!important 
+}
+.cards-texts ul li p svg{
+    margin-right:10px!important 
+}
+.cards-box-content{
+    flex-direction:row;
+    flex-wrap:wrap;
+    display:flex 
+}
+/* Banner de maquininha de cartão */
+.correspondente-box{
+    min-height:65vh;
+    width:100%;
+    border-radius:30px;
+    background-image:url("/img/ADQUIRENCIA/maquininha-venda-antecipada.webp");
+    background-position:center top;
+    background-size:cover;
+}
+.correspondente-content-box{
+    background-color:#ffffff5a;
+   /*Definindo a cor da pelicula em cima da imagem para dar um efeito mais escuro e não ficar ruim de ler*/
+    width:100%;
+    min-height:65vh;
+    border-radius:30px 0 0 30px;
+    padding:50px;
+    color:#000;
+}
+.correspondente-h2,.correspondente-span{
+    color:var(--main-color);
+    font-weight:700;
+    margin-bottom:20px;
+}
+.correspondente-texts{
+    width:48%;
+}
+.correspondente-p{
+    font-family:Helvetica,sans-serif;
+    font-size:18px;
+    color:var(--gray-600);
+}
+.fundo-branco{
+    border-radius:30px;
+    background-color:#ffffffad;
+   /*Cor do fundo do "receba suas vendas" */
+    padding:30px;
+}
+/* Formulário de adquirência */
+/* Media query de adquirência */
+@media only screen and (max-width:768px){
+    .correspondente-box{
+        min-height:45vh;
+        width:100%;
+        border-radius:10px;
+        background-image:none;
+        background-position:center top;
+        background-size:cover;
+        box-shadow:0 4px 42px rgba(0,0,0,.25) 
+   }
+    .correspondente-content-box{
+        background-color:#ffffffaa;
+        width:100%;
+        min-height:45vh;
+        border-radius:10px;
+        padding:10px 
+   }
+    .correspondente-texts{
+        width:100% 
+   }
+    .correspondente-h2,.correspondente-span{
+        color:var(--main-color);
+        font-weight:700;
+        margin-bottom:20px 
+   }
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .correspondente-box{
+        min-height:45vh;
+        width:100%;
+        border-radius:10px;
+        background-image:url("https://i.ibb.co/k2TVFfd/istockphoto-1400318061-2048x2048-transformed.jpg");
+        background-position:center top;
+        background-size:cover 
+   }
+    .correspondente-content-box{
+        background-color:#ffffffaa;
+        width:100%;
+        min-height:45vh;
+        border-radius:10px;
+        padding:30px;
+        display:flex;
+        align-items:center 
+   }
+    .correspondente-texts{
+        width:70% 
+   }
+}
+/*====================================================== End Tela de Adquirência ========================================================= */
+/*====================================================== Start Tela de Ajuda ========================================================= */
+/* Tela de Ajuda */
+.cx-contents-list {
+    border: solid 1px rgba(0, 0, 0, .1);
+    padding: 5px;
+    border-radius: 20px;
+}
+.artigos a {
+    justify-content: space-between;
+    display: flex;
+}
+.cards-cx{
+    align-items: center;
+    display: flex;
+    min-height: 100%;
+    border-radius: 10px;
+    border: solid 1px rgba(0, 0, 0, .1);
+    margin-bottom: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.399);
+}
+.cards-cx ul li, a {
+    list-style: none;
+    text-decoration: none;
+}
+.cards-cx a:hover{
+    list-style: none;
+    text-decoration: none;
+}
+.cx-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.cx-card-title {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 700;
+    font-family: 'Inter';
+}
+.cx-card-title:hover{
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 700;
+}
+.cards-cx ul {
+    border-radius: 10px;
+    min-width: 100%;
+    min-height: 100%;
+    margin-bottom: 0 !important;
+}
+.cards-cx li {
+    min-height: 100%;
+}
+.btn-link {
+    width: 100%;
+    height: 100%;
+    text-align: start !important;
+}
+.card-header{
+    padding: 0 !important;
+    background-color: var(--white) !important;
+}
+.card-email {
+    margin-bottom: 10px !important;
+    border-radius: 7px !important;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.399);
+}
+/* Ajuste de contatos */
+.email, .telefone, .chat {
+    display: flex;
+}
+.card-body p {
+    font-family: 'Helvetica', sans-serif;
+}
+.chat p {
+    font-family: 'Helvetica', sans-serif;
+}
+/*====================================================== End Tela de Ajuda ========================================================= */
+
+
+/*====================================================== Start  Tela de assistência ========================================================= */
+.title-content-itens-assist {
+    font-weight: bold;
+}
+
+.assist-hero {
+    min-height: 70vh;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-image: url("/img/ASSISTENCIA/health-banner.webp");
+    background-position: center center;
+    align-items: center;
+    min-width:100%;
+}
+
+.assist-hero-text {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    backdrop-filter: 10px;
+  
+ 
+
+}
+/* Cards */
+/* Incio da estilização dos cards da assisência */
+.item-02 {
+    padding: 15px;
+}
+.item-assist {
+    background-color: var(--white);
+    margin-left: 10px;
+    border-radius: 10px;
+   /* min-height:200px;
+    */
+    border: solid 1px #DCDCDC;
+    min-width: 150px;
+    cursor: pointer;
+    height: 180px;
+}
+.title-card-assist {
+    display: flex;
+    align-items: center;
+   /* border: solid 1px green;
+    */
+}
+.title-icon-card-assist img{
+    margin-right : 10px;
+    display: flex;
+    align-items: center;
+}
+.title-text-card-assist{
+    align-items: center;
+    justify-content: start;
+    display: flex;
+   /* border: solid 1px blue;
+    */
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Helvetica', sans-serif;
+}
+.text-card-assist {
+   /* border: solid 1px blueviolet;
+    */
+    font-size: 12px;
+    margin-top: 5px;
+}
+/* Estilo Hover (extra) de cada item */
+.item-assist:hover {
+    border: solid 2px var(--main-color);
+    transition: 0.5;
+    cursor: pointer;
+}
+/* O link dos cards */
+.link-card-assist{
+    text-decoration: none;
+    color: var(--black);
+}
+.link-card-assist:hover{
+    text-decoration: none;
+    color:var(--main-color);
+    cursor: pointer;
+    
+}
+/* Demais Assistências */
+/* Inicio Geral */
+/* Geral */
+.itens-assist-demais {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    min-height: 50vh !important;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.titulo {
+    justify-content: start;
+    width: fit-content;
+}
+.botao {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.botao a {
+    margin-left: 10px;
+    margin-right: 5px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.botao a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.577);
+    transition: 0.5s;
+}
+.buttons-demais-assist {
+    align-items: flex-end;
+    display: flex;
+    justify-content: end;
+}
+
+/* ================ Botões dos modais de saiba mais ================ */
+
+.botao-card-saiba-mais
+{
+    border-radius: 10px  !important;
+    background-color: var(--main-color)  !important;
+    cursor: pointer  !important;
+    padding: 8px  !important;
+    border: transparent  !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+.botao-card-saiba-mais:hover
+{
+    background-color: #ffffff9f  !important;
+    border: solid 1px var(--main-color) !important;
+    color: var(--main-color) !important;
+    transition: 0.3s  !important;
+
+} 
+
+/* Fim das configurações gerais */
+/* Configurações específicas */
+ 
+ 
+/* Desemprego */
+.titulo-desemprego {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.desemprego{
+    background-size: cover;
+    background-image: url("/img/ASSISTENCIA/assistencia-desemprego.webp");
+    background-position: center bottom;
+    
+}
+
+
+/* Pet */
+.titulo-pet {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.pet{
+    background-size: cover;
+    background-image: url("/img/ASSISTENCIA/pet.webp");
+    background-position: center center;
+    width: calc(100% + 15px);
+}
+/* Residencial */
+.titulo-residencial {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.residencial{
+    background-size: cover;
+    background-image: url("/img/ASSISTENCIA/residencial.webp");
+    background-position: center center;
+    width: calc(100% + 15px);
+}
+/* Eco */
+.titulo-eco {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.eco{
+    background-size: cover;
+    background-image: url("/img/ASSISTENCIA/eco.webp");
+    background-position: center center;
+    width: calc(100% + 15px);
+}
+/* Funeral */
+.titulo-funeral {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.funeral{
+    background-size: cover;
+    background-image: url("/img/ASSISTENCIA/funeraria.webp");
+    background-position: right center;
+    width: calc(100% + 15px);
+}
+/* Contrate */
+.contratar {
+    background-color:#fafafa;
+}
+.cartaozinho img {
+    margin-bottom: 10px;
+}
+.quadrado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cartaozinho {
+    width: 16rem;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+.cartaozinho p {
+    color: rgba(36, 36, 36, 0.6);
+    line-height: 22px;
+}
+.itens-do-cartaozinho {
+    padding: 20px;
+}
+/* Cards controls */
+.custom-navigation {
+    display: flex;
+    border: transparent;
+    justify-content: center;
+}
+.custom-navigation button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+    transition: border-color 0.2s;
+}
+.custom-navigation button:hover, svg{
+    background-color: transparent;
+    border: none;
+}
+.custom-navigation span {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.custom-navigation button:active {
+    border: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+/* Hover dos cards / animação */
+/* Desemprego Hover */
+
+.desemprego:hover{
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.residencial:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+.eco:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+.pet:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+.funeral:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+/* =========================================== INICIO PÁGINA DE TERMOS DAS ASSISTÊNCIAS ========================================== */
+
+.estassist-termos-cards
+{
+  
+    display: flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.estassist-termos-cards a, a:hover
+{
+    text-decoration: none !important;
+}
+
+
+.card-termos
+{
+     height: 230px !important;
+    width: 230px !important;
+     margin-left: 15px !important;
+    border-radius: 15px !important;
+    padding: 20px !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    margin-bottom: 30px !important;
+
+ 
+}
+
+.card-termos p 
+{
+    color: var(--gray-600) !important;
+    font-weight: bold !important;
+ }
+
+
+ 
+/* Hover do card de termos e condições gerais das assistências */
+.card-termos:hover
+
+{ 
+     border: 2px solid var(--main-color) !important;
+     transition: 1s;
+ }
+
+ 
+ 
+/* =========================================== FIM PÁGINA DE TERMOS DAS ASSISTÊNCIAS ============================================= */
+/*====================================================== End Cards Tela de assistência ========================================================= */
+
+
+
+/*====================================================== Start Cards Tela Home ========================================================= */
+/* Inicio da Estilização dos Cards principal, da tela Home */
+.tag-cards {
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.item-01 {
+    padding: 15px;
+}
+.item {
+    background-color: var(--white);
+    margin-left: 10px;
+    border-radius: 10px;
+    max-width: 180px;
+    min-width: 150px;
+   /* min-height:200px;
+    */
+    border: solid 1px #DCDCDC;
+    margin-left: 10px;
+  
+    height:200px;
+    cursor: default;
+}
+.title-card {
+    display: flex;
+    align-items: center;
+}
+.title-icon-card img{
+    margin-right : 10px;
+    display: flex;
+    align-items: center;
+}
+.title-text-card{
+    align-items: center;
+    justify-content: start;
+    display: flex;
+   /* border: solid 1px blue;
+    */
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.cards {
+    background-color: var(--white);
+}
+.text-card {
+   /* border: solid 1px blueviolet;
+    */
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: start;
+}
+.title-text-content-card {
+    margin-top: 20px;
+}
+.title-card-content{
+   /* border: solid 1px red;
+    */
+    justify-content: center;
+}
+/* Estilo Hover (extra) de cada item */
+.item:hover {
+    border: solid 1px var(--main-color);
+    transition: 0.5;
+    cursor: default;
+}
+/* --------- Fim da Estilização dos Cards ----------*/
+/* Conta digital pessoa física */
+.title-conta-digital-pf{
+    color: var(--white);
+}
+/* ================================================================= End ============================================================ */
+/* ================================================================= Start Cards Pessoa Física ============================================== */
+.text-card-pf {
+    font-size: 12px;
+    margin-top: 15px;
+}
+.item-pf {
+    background-color: var(--white);
+    margin-left: 10px;
+    border-radius: 10px;
+    max-width: 180px;
+   /* min-height:200px;
+    */
+    border: solid 1px #DCDCDC;
+    margin-left: 10px;
+    min-width: 190px;
+    height:200px;
+    cursor: default;
+}
+.item-pf:hover {
+    border: solid 1px var(--main-color);
+    transition: 0.5;
+    cursor: default;
+}
+/* Titulo dos cards */
+.tag-cards-pf {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+/* Lojas */
+.baixe-o-app{
+    display:flex;
+    flex-direction:row;
+    margin-right: 10px;
+}
+.stores {
+    /* flex-direction:column; */
+    display:flex;
+   justify-content: center;
+}
+.stores a {
+    margin-bottom:5px;
+    margin-left:10px;
+}
+/* ================================================================= End Cards Pessoa Física =========================================================== */
+/* ===================================================================Start Mockup (para baixar o aplicativo nas lojas) ================================== */
+
+
+.cores {
+    background-color: var(--main-color);
+    padding: 30px;
+    border-radius: 20px;
+}
+.mockup-pt-1 {
+    float: left;
+    width: 50%;
+   /* largura da primeira div */
+    display: flex;
+    align-items: center;
+    min-height: 65vh;
+}
+
+.mockup-pt-2 {
+    display: inline-block;
+    width: 50%;
+   /* largura da segunda div */
+    text-align: center;
+}
+.mockup-title {
+    font-weight: 500 !important;
+}
+.card-mockup-btn {
+    color: var(--main-color) !important;
+    font-family: 'Inter',Arial,Helvetica,sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    margin-top: 1.5rem!important;
+    border-radius: .8rem!important;
+    text-transform: none!important;
+    align-items: center;
+    box-shadow: none;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: .3px;
+    outline: none;
+    padding: 9px 20px 7px;
+    transition: all .3s ease;
+    width: 90%;
+    max-width: 360px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background: var(--white);
+    border: 1px solid #FFF !important;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    height: 40px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .mockup-pt-1, .mockup-pt-2 {
+        width: 100%;
+       /* mudar para 100% da largura da tela em resoluções abaixo de 600px */
+        float: none;
+       /* remover o float */
+   }
+    .mockup-pt-2 img {
+        max-width: 350px !important;
+   }
+    .lojas{
+        justify-content: center !important;
+   }
+}
+/* =================================================================== End Mockup (para baixar o aplicativo nas lojas) ================================== */
+/* =================================================================== Start Empréstimo ====================================================== */
+/* Tela de empréstimo */
+.vermelho {
+    color: var(--main-color);
+}
+.list-requerid {
+    display: flex;
+    align-items: top;
+}
+
+.emprestimo-hero{
+
+    background-image: url("/img/EMPRESTIMO/loan-hero.webp");
+    background-size: cover;
+    background-position: center center;
+    min-height: 500px;
+
+}
+
+
+/* =================================================================== End Empréstimo ====================================================== */
+/* =================================================================== Start Footer ====================================================== */
+/* Footer */
+footer h3 {
+    font-size: 16pt;
+}
+footer ul li a {
+    color: var(--black);
+    text-decoration: none;
+}
+footer ul li a:hover {
+    color:var(--main-color);
+    text-decoration: none;
+}
+footer ul li {
+    list-style: none;
+}
+.nav li {
+    margin-left: 20px;
+}
+/* termos do rodapé */
+.sub-footer {
+    font-size: 12px;
+    font-family: 'Helvetica', sans-serif;
+}
+.section-resumo-text{
+    color: var(--gray-600);
+    line-height: 20px;
+    font-family: 'Helvetica', sans-serif !important;
+}
+/* =================================================================== End Footer ====================================================== */
+/* =================================================================== Start Medias ====================================================== */
+/* Media querys */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 22px !important;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+   }
+    .swiper, .section-one{
+        margin-top: 0 !important;
+   }
+    .span-geral{
+   }
+    .span-mobile-only{
+        display: flex;
+        margin-bottom: 15px;
+        color: var(--gray-400);
+   }
+    .text-card{
+        font-size: 12px;
+   }
+    .tag-cards {
+        margin-left: 15px;
+        font-size: 15.6pt;
+        font-size: 'Inter', sans-serif !important;
+   }
+    .swiper-button-prev{
+        padding-left: 0px !important;
+   }
+    .swiper-button-next{
+        padding-right: 0px !important;
+   }
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+   }
+}
+@media (min-width: 576px){
+}
+/* =================================================================== End Medias ====================================================== */

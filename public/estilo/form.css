@@ -1,0 +1,127 @@
+ 
+form 
+ {
+    color: #FFF;
+    font-family: 'Helvetica', sans-serif;
+    min-height: 90vh;
+ }
+
+ .termo{
+    font-size: 12px;
+  }
+
+ 
+ form select {
+     width: 100%;
+     padding-left: 10px;
+     min-height: 40px;
+     border-radius: 5px;
+     border: 2px solid #e1e5ee;
+     background-color: transparent !important;
+     color: #FFF !important;
+  
+   }
+
+   select option {
+       color: #a03234 !important;
+       font-family: 'Inter', sans-serif;
+    }
+      
+      select option:nth-child(1)
+      {
+         display: none;
+      }
+
+ 
+
+input[type=number]::-webkit-inner-spin-button { 
+   -webkit-appearance: none;
+   
+}
+
+input[type=number] { 
+  -moz-appearance: textfield;
+  appearance: textfield;
+
+}
+ 
+
+*, *::before, *::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.form {
+   position: relative;
+   width: 100%;
+   height: 3rem;
+ }
+
+.form__input {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border: 2px solid #e1e5ee;
+   border-radius: 0.5rem;
+   font-family: inherit;
+   font-size: inherit;
+   color: white;
+   z-index: 1;
+   outline: none;
+   padding: 1.25rem;
+   background: none;
+ }
+
+.form__input:hover {
+   border-color: #adffff;
+}
+
+.form__input:focus {
+   border-color: #fafafa;
+   z-index: 0;
+}
+
+.form__label {
+   position: absolute;
+   left: 1rem;
+   top: 0.8rem;
+   padding: 0 0.5rem;
+   color: white;
+   cursor: text;
+   transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+   background-color: #a03234;
+}
+
+.form__input:focus ~ .form__label, .form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+   top: -1.2rem;
+   font-size: 0.8rem;
+   left: 0.1rem;
+}
+
+
+.invalid-feedback p{
+   margin-top:5rem !important;
+}
+
+
+
+/* Personalização dos erros */
+.error p
+{
+   color: yellow;
+}
+
+
+
+ /* Root para não selecionar itens */
+  .naoSelecionavel {
+   -webkit-touch-callout: none;  /* iPhone OS, Safari */
+   -webkit-user-select: none;    /* Chrome, Safari 3 */
+   -khtml-user-select: none;     /* Safari 2 */
+   -moz-user-select: none;       /* Firefox */
+   -ms-user-select: none;        /* IE10+ */
+   user-select: none;            /* Possível implementação no futuro */
+}

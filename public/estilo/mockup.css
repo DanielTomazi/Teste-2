@@ -1,0 +1,131 @@
+.app-download-section
+
+{
+     min-height: 70vh;
+}
+
+.cores
+
+{
+  background-color: #a03234;
+  padding: 30px;
+  border-radius: 20px;
+ 
+}
+
+.mockup-pt-1 {
+    float: left;
+    width: 50%; /* largura da primeira div */
+    display: flex;
+    align-items: center;
+     min-height: 65vh;
+  }
+
+  
+  .button-open-account-extra-white{
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    margin-top: 1.5rem!important;
+    text-align: center!important;
+    border-radius: .8rem!important;
+    background: #fff;
+    color: #a03234;
+    text-transform: none!important;
+    align-items: center;
+    box-shadow: none;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: .3px;
+    outline: none;
+    padding: 9px 20px 7px;
+    transition: all .3s ease;
+    width: 100%;
+    max-width: 360px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold !important;
+    height: 40px;
+    cursor: pointer;    
+}
+
+
+
+.button-open-account-extra-white:hover{
+  color: #a03234cb;
+}
+
+
+
+
+  
+
+  .mockup-pt-2 {
+    display: inline-block;
+    width: 50%; /* largura da segunda div */
+    text-align: center;
+  }
+ 
+ 
+ .mockup-title
+ {
+  font-weight: 500 !important;
+  
+ }
+
+
+.card-mockup-btn 
+{
+  color: #a03234 !important;
+  font-family: 'Inter',Arial,Helvetica,sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  margin-top: 1.5rem!important;
+  border-radius: .8rem!important;
+  text-transform: none!important;
+  align-items: center;
+  box-shadow: none;
+  display: inline-flex;
+  justify-content: center;
+  letter-spacing: .3px;
+  outline: none;
+  padding: 9px 20px 7px;
+  transition: all .3s ease;
+  width: 90%;
+  max-width: 360px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background: #FFF;
+  border: 1px solid #FFF !important;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+  height: 40px;
+  cursor: pointer;
+
+}
+
+
+@media (max-width: 600px) {
+    .mockup-pt-1, .mockup-pt-2 {
+      width: 100%; /* mudar para 100% da largura da tela em resoluções abaixo de 600px */
+      float: none; /* remover o float */
+    }
+
+    .mockup-pt-2 img 
+    {
+        max-width: 350px !important;
+    }
+
+    .lojas{
+      justify-content: center !important;
+    }
+  }

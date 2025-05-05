@@ -1,0 +1,19 @@
+
+.modal-body
+{
+    padding: 50px;
+
+}
+
+.textos-modal h4 {
+    font-weight: bold;
+    font-size: 20px !important;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.paragrafo-modal
+{
+    font-size: 15px !important;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
