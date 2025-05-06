@@ -71,167 +71,153 @@
             </div>
     </section>
 
-
-
     {{-- Inicio dos Cards --}}
 
-    <div class="container-fluid cards py-3">
-        <div class="container">
-            <div class="py-2">
-                <p class="tag-cards py-2">No EstBank você tem:</p>
+    <<div class="container-fluid cards py-3">
+    <div class="container">
+        <div class="py-2">
+            <p class="tag-cards py-2">No EstBank você tem:</p>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <!-- Card Rendimento -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2zm1 17.93c-2.83.48-5.73-1.02-6.8-3.67-.39-.95.28-1.94 1.3-1.94h10.99c1.02 0 1.69.99 1.3 1.94-1.07 2.65-3.97 4.15-6.79 3.67z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Rendimento</span>
+                    </div>
+                    <p class="text-card">No EstBank seu saldo pode render até 100% do CDI.</p>
+                </div>
+            </div>
+
+            <!-- Card TED -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14h2V5h14v14h2V5c0-1.1-.9-2-2-2z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>TED</span>
+                    </div>
+                    <p class="text-card">Transfira com segurança e rapidez com o EstBank.</p>
+                </div>
             </div>
 
             <!-- Card PIX -->
-            <div class="owl-carousel owl-theme">
-                <div class="item items item-01">
-                    <div class="title-card">
-                        <div class="title-icon-card">
-                            <picture>
-                                <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="31px" height="31px" viewBox="0 0 89.000000 90.000000" preserveAspectRatio="xMidYMid meet">
-                                    <g transform="translate(0.000000,90.000000) scale(0.100000,-0.100000)" fill="#a03234" stroke="none">
-                                        <path d="M375 861 c-30 -19 -175 -164 -175 -175 0 -3 16 -6 35 -6 31 0 47 -11 126 -87 l89 -86 89 86 c73 72 94 87 120 87 17 0 31 3 31 6 0 11 -163 171 -187 183 -33 17 -94 13 -128 -8z" />
-                                        <path d="M78 572 c-103 -106 -103 -154 -1 -263 55 -58 71 -69 99 -69 56 0 86 18 159 95 73 77 107 97 140 85 11 -4 53 -42 93 -84 117 -123 151 -127 245 -27 102 109 102 157 -1 263 -55 58 -70 68 -99 68 -50 0 -81 -20 -156 -104 -95 -106 -106 -105 -224 14 -89 89 -90 90 -140 90 -48 0 -52 -2 -115 -68z" />
-                                        <path d="M370 302 c-86 -88 -95 -94 -136 -101 l-35 -6 89 -88 c49 -49 95 -93 103 -98 18 -11 90 -11 108 0 26 17 192 186 184 187 -4 1 -20 5 -36 8 -15 4 -62 41 -109 86 -45 44 -87 80 -92 80 -6 -1 -40 -31 -76 -68z" />
-                                    </g>
-                                </svg>
-                            </picture>
-
-                        </div>
-                    </div>
-                    <div>
-                        <div class="title-text-card">
-                            <span> PIX </span>
-                        </div>
-
-                        <p class="text-card">Transfira rápido com PIX no EstBank.</p>
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M12 4l1.41 1.41L7.83 11H20v2H7.83l5.58 5.59L12 20l-8-8z"/>
+                        </svg>
                     </div>
                 </div>
-                <!-- Card TED -->
-                <div class="item items item-01">
-                    <div class="title-card">
-                        <div class="title-icon-card">
-                            <picture>
-                                <svg g xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
-                                    <path fill="none" d="M0 0h24v24H0z" />
-                                    <path d="M19.375 15.103A8.001 8.001 0 0 0 8.03 5.053l-.992-1.737A9.996 9.996 0 0 1 17 3.34c4.49 2.592 6.21 8.142 4.117 12.77l1.342.774-4.165 2.214-.165-4.714 1.246.719zM4.625 8.897a8.001 8.001 0 0 0 11.345 10.05l.992 1.737A9.996 9.996 0 0 1 7 20.66C2.51 18.068.79 12.518 2.883 7.89L1.54 7.117l4.165-2.214.165 4.714-1.246-.719zM8.5 14H14a.5.5 0 1 0 0-1h-4a2.5 2.5 0 1 1 0-5h1V7h2v1h2.5v2H10a.5.5 0 1 0 0 1h4a2.5 2.5 0 1 1 0 5h-1v1h-2v-1H8.5v-2z" fill="rgba(160,50,52,1)" />
-                                </svg>
-                            </picture>
-                        </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>PIX</span>
                     </div>
-                    <div>
-                        <div class="title-text-card">
-                            <span> TED </span>
-                        </div>
+                    <p class="text-card">Receba e faça PIX com taxas acessíveis.</p>
+                </div>
+            </div>
 
-                        <p class="text-card">Transfira com rapidez e segurança via TED no EstBank.</p>
+            <!-- Card Empréstimo -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M12 7V3L8 7h3v4h2V7h3l-4-4zM4 13h16v2H4z"/>
+                        </svg>
                     </div>
                 </div>
-                <!-- Card Boleto -->
-                <div class="item items item-01">
-                    <div class="title-card">
-                        <div class="title-icon-card">
-                            <picture>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
-                                    <path fill="none" d="M0 0h24v24H0z" />
-                                    <path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2V4H5v16h14zM8 9h8v2H8V9zm0 4h8v2H8v-2z" fill="rgba(160,50,52,1)" />
-                                </svg>
-                            </picture>
-                        </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Empréstimo</span>
                     </div>
-                    <div>
-                        <div class="title-text-card">
-                            <span> Boletos </span>
-                        </div>
+                    <p class="text-card">Temos condições especiais para você.</p>
+                </div>
+            </div>
 
-                        <p class="text-card"> Boleto para suas cobranças pessoais e pagamento de contas fáceis no
-                            EstBank. </p>
+            <!-- Card Folha de Pagamento -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zm0-8v2h14V9H7z"/>
+                        </svg>
                     </div>
                 </div>
-                <!-- Card Cartão virtual -->
-                <div class="item items item-01">
-                    <div class="title-card">
-                        <div class="title-icon-card">
-                            <picture>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
-                                    <path fill="none" d="M0 0h24v24H0z" />
-                                    <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 8H4v8h16v-8zm0-2V5H4v4h16zm-6 6h4v2h-4v-2z" fill="rgba(160,50,52,1)" />
-                                </svg>
-                            </picture>
-                        </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Folha de Pagamento</span>
                     </div>
-                    <div>
-                        <div class="title-text-card">
-                            <span> Cartão Virtual </span>
-                        </div>
+                    <p class="text-card">Facilite o pagamento dos seus funcionários.</p>
+                </div>
+            </div>
 
-                        <p class="text-card">Com segurança em primeiro lugar, o EstBank oferece um cartão virtual para
-                            cada operação.</p>
+            <!-- Card Boletos -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M21 11H6.83l5.58-5.59L11 4l-8 8 8 8 1.41-1.41L6.83 13H21v-2z"/>
+                        </svg>
                     </div>
                 </div>
-                <!-- Card PAT-->
-                <div class="item items item-01">
-                    <div class="title-card">
-                        <div class="title-icon-card">
-                            <picture>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="32" height="32">
-                                    <path d="M416 0C400 0 288 32 288 176l0 112c0 35.3 28.7 64 64 64l32 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 0-112 0-208c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7L80 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-224.4c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16l0 134.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8L64 16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z" fill="rgba(160,50,52,1)"/>
-                                </svg>
-                            </picture>
-                        </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Boletos</span>
                     </div>
-                    <div>
-                        <div class="title-text-card">
-                            <span class="text-card-title"> PAT (Em breve) </span>
-                        </div>
-                        <p class="text-card">Credenciamento de estabelecimentos para aceitação de moeda eletrônica (credenciadora PAT).</p>
+                    <p class="text-card">Boletos para suas cobranças pessoais e pagamentos de contas.</p>
+                </div>
+            </div>
+
+            <!-- Card Cartão Físico -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M20 4H4c-1.1 0-2 .9-2 2v3h20V6c0-1.1-.9-2-2-2zm0 13H4v-5h16v5zm0-7H4v-2h16v2z"/>
+                        </svg>
                     </div>
                 </div>
-                <!-- Card recargas  -->
-                <div class="item items item-01">
-                    <div class="title-card">
-                        <div class="title-icon-card">
-                            <picture>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
-                                    <path fill="none" d="M0 0h24v24H0z" />
-                                    <path d="M7 4v16h10V4H7zM6 2h12a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm6 15a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" fill="rgba(160,50,52,1)" />
-                                </svg>
-                            </picture>
-                        </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Cartão Físico</span>
                     </div>
-                    <div>
-                        <div class="title-text-card">
-                            <span> Recargas </span>
-                        </div>
+                    <p class="text-card">Peça já seu cartão físico EstBank com uso internacional.</p>
+                </div>
+            </div>
 
-                        <p class="text-card">
-                            Recarregue seu celular facilmente com o app do EstBank.</p>
+            <!-- Card Recargas -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.41 4.42 3 7.5 3c2.54 0 4.87 1.61 5.5 4.09C13.63 4.61 15.96 3 18.5 3 21.58 3 24 5.41 24 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
                     </div>
                 </div>
-
-                <!-- Card Emprestimo -->
-                <div class="item items item-01">
-                    <div class="title-card">
-                        <div class="title-icon-card">
-                            <picture>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
-                                    <path fill="none" d="M0 0h24v24H0z" />
-                                    <path d="M5 9a1 1 0 0 1 1 1 6.97 6.97 0 0 1 4.33 1.5h2.17c1.333 0 2.53.58 3.354 1.5H19a5 5 0 0 1 4.516 2.851C21.151 18.972 17.322 21 13 21c-2.79 0-5.15-.603-7.06-1.658A.998.998 0 0 1 5 20H2a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h3zm1.001 3L6 17.022l.045.032C7.84 18.314 10.178 19 13 19c3.004 0 5.799-1.156 7.835-3.13l.133-.133-.12-.1a2.994 2.994 0 0 0-1.643-.63L19 15h-2.111c.072.322.111.656.111 1v1H8v-2l6.79-.001-.034-.078a2.501 2.501 0 0 0-2.092-1.416L12.5 13.5H9.57A4.985 4.985 0 0 0 6.002 12zM4 11H3v7h1v-7zm14-6a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-7-5a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" fill="rgba(160,50,52,1)" />
-                                </svg>
-                            </picture>
-                        </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Recargas</span>
                     </div>
-                    <div>
-                        <div class="title-text-card">
-                            <span class="text-card-title"> Empréstimo </span>
-                        </div>
-                        <p class="text-card">
-                            Crédito fácil com condições especiais no EstBank.</p>
-                    </div>
+                    <p class="text-card">Recarregue seu celular com facilidade e praticidade.</p>
                 </div>
-
             </div>
         </div>
     </div>
+</div>
 
     <script>
         $(document).ready(function() {
@@ -280,165 +266,172 @@
 
     {{-- FIM DOS CARDS --}} {{-- Para empresas --}}
     <section>
-        <div class="container py-4 mb-2">
-            <section class="section-apresentation-content py-3">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
-                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-3 fw-600 tag-section span-geral mb-2 order-sm-first d-sm-flex d-md-none d-lg-none d-xl-none order-first">
-                                EstBank Empresas
-                            </p>
-
-                            <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
-                                <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
-
-                                <picture>
-                                    <source srcset="/img/HOME/empreendedor.webp  160w,
-                                        /img/HOME/empreendedor.webp  320w,
-                                        /img/HOME/empreendedor.webp  640w" sizes="(max-width: 500px) 100vw, 500px">
-                                    <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/empreendedor.webp  160w,
-                                        /img/HOME/empreendedor.webp  320w,
-                                        /img/HOME/empreendedor.webp  640w" src="/img/HOME/FGTSMan" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Homem vendendo cereal p">
-                                </picture>
-                                <noscript>
-                                    <picture>
-                                        <source srcset="/img/HOME/FGTSMan 160w,
-                                            /img/HOME/empreendedor.webp  320w,
-                                            /img/HOME/empreendedor.webp  640w" sizes="(max-width: 500px) 100vw, 500px" />
-                                        <img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/img/HOME/empreendedor.webp  160w,
-                                            /img/HOME/empreendedor.webp  320w,
-                                            /img/HOME/empreendedor.webp  640w" src="/img/HOME/empreendedor.webp " style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center;  border-radius:15px" />
-                                    </picture>
-                                    <noscript>
-                                        <picture>
-                                    </noscript>
+    <div class="container py-4 mb-2">
+        <section class="section-apresentation-content py-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 col-lg-5 mb-md-5">
+                        <p class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral">
+                            EstBank Empréstimos
+                        </p>
+                        <h2 class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50">
+                            <span class="d-block d-md-inline title-products">Solução financeira completa com o EstBank.</span>
+                        </h2>
+                        <p class="section-resumo-text fs-18 lh-22 mt-4">
+                            Oferecemos opções de crédito com taxas competitivas.
+                        </p>
+                        <div class="row mt-4">
+                            <div class="col-12 mb-3">
+                                <div class="p-3 bg-light rounded">
+                                    <h4>Empréstimo Consignado Privado e Adiantamento Salarial</h4>
+                                    <p>Simplifique suas finanças com um empréstimo descontado direto da folha.</p>
+                                    <ul>
+                                        <li>Carteira assinada em empresa parceira</li>
+                                        <li>Parcelas descontadas na folha de pagamento</li>
+                                        <li>Taxas menores e facilidade na contratação</li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-5 mb-md-5">
-                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
-                                EstBank Empresas</p>
-                            <h2 style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline title-products">Eficiência financeira
-                                    simplificada.</span> </h2>
-                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Com o EstBank,
-                                você tem a agilidade que precisa na gestão do seu negócio. Oferecemos soluções simples,
-                                para que você se concentre no que realmente importa: o crescimento do seu negócio.</p>
-                            <div style="opacity: 1;">
-                                <a onclick='ga("send", "event", "category", "action", "label");' data-home="conhecer-a-conta-digital-PJ" title="Conhecer a Conta Digital PJ" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://estbank.idez.com.br/app/signup" target="blank">
-                                    Abra sua conta
-                                </a>
-
+                            <div class="col-12">
+                                <div class="p-3 bg-light rounded">
+                                    <h4>Empréstimo Consignado Público</h4>
+                                    <p>Simplifique suas finanças com um empréstimo descontado direto da folha.</p>
+                                    <ul>
+                                        <li>Facilidade e rapidez na contratação</li>
+                                        <li>Taxas de juros atrativas</li>
+                                        <li>Parcelas descontadas na folha de pagamento</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
+                        <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
+                            <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
+                            <picture>
+                                <source srcset="/img/HOME/man-loan.webp 160w, /img/HOME/man-loan.webp 320w, /img/HOME/man-loan.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
+                                <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/man-loan.webp 160w, /img/HOME/man-loan.webp 320w, /img/HOME/man-loan.webp 640w" src="/img/HOME/man-loan.webp" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Homem sentado com uma mulher de frente para um computador">
+                            </picture>
+                        </div>
+                    </div>
                 </div>
-            </section>
-        </div>
-    </section>
+            </div>
+        </section>
+    </div>
+</section>
+
 
     {{-- Adquirência --}}
 
     <section class="mb-md-5">
-        <div class="container">
-            <section class="section-apresentation-content py-3">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
-                            {{-- Rotulo da section para o celular --}}
-                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-3 fw-600 tag-section span-geral mb-2 order-sm-first d-sm-flex d-md-none d-lg-none d-xl-none order-first">
-                                EstBank Adquirência
-                            </p>
-
-                            <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
-                                <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
-
-                                <picture>
-                                    <source srcset="/img/HOME/homem-segurando-pos.webp 160w,
-                                        /img/HOME/homem-segurando-pos.webp 320w,
-                                        /img/HOME/homem-segurando-pos.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
-                                    <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/homem-segurando-pos.webp 160w,
-                                        /img/HOME/homem-segurando-pos.webp 320w,
-                                        /img/HOME/homem-segurando-pos.webp 640w" src="/img/HOME/mulher-segurando-pos" webpading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Homem segurando uma máquina de cartão">
-                                </picture>
-                                <noscript>
-                                    <picture>
-                                        <source srcset="/img/HOME/mulher-segurando-pos webpw,
-                                            /img/HOME/homem-segurando-pos.webp 320w,
-                                            /img/HOME/homem-segurando-pos.webp 640w" sizes="(max-width: 500px) 100vw, 500px" />
-                                        <img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/img/HOME/homem-segurando-pos.webp 160w,
-                                            /img/HOME/homem-segurando-pos.webp 320w,
-                                            /img/HOME/homem-segurando-pos.webp 640w" src="/img/HOME/homem-segurando-pos.webp" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center;  border-radius:15px" alt="Homem segurando uma máquina de cartão" />
-                                    </picture>
-                                </noscript>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-5 mb-md-5">
-                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
-                                EstBank Adquirência</p>
-                            <h2 style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline  title-products">Aumente sua produtividade com as
-                                    maquininhas EstBank.</span></h2>
-                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Nossas
-                                maquininhas facilitam suas transações e aumentam suas vendas. Além disso, oferecemos
-                                segurança e praticidade na gestão financeira do seu negócio.</p>
-                            <div style="opacity: 1;"><a onclick='ga("send", "event", "category", "action", "label");' data-home="maquininhas" title="Conheça as maquininhas do Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/adquirencia"> Conheças as maquininhas </a></div>
-                            <div style="opacity: 1;"><a onclick='ga("send", "event", "category", "action", "label");' data-home="maquininhas" title="Solicite uma máquininha" class="btn btn--outline btn--lg rounded-4 fs-14 fw-600 text-none mt-2 text-md-center" href="/adquira"> Solicitar maquininha </a></div>
+    <div class="container">
+        <section class="section-apresentation-content py-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
+                        <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
+                            <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
+                            <picture>
+                                <source srcset="/img/HOME/homem-segurando-pos.webp 160w,
+                                                /img/HOME/homem-segurando-pos.webp 320w,
+                                                /img/HOME/homem-segurando-pos.webp 640w"
+                                        sizes="(max-width: 500px) 100vw, 500px">
+                                <img sizes="(max-width: 500px) 100vw, 500px"
+                                     srcset="/img/HOME/homem-segurando-pos.webp 160w,
+                                             /img/HOME/homem-segurando-pos.webp 320w,
+                                             /img/HOME/homem-segurando-pos.webp 640w"
+                                     src="/img/HOME/homem-segurando-pos.webp"
+                                     loading="lazy"
+                                     style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;"
+                                     alt="Homem segurando uma máquina de cartão">
+                            </picture>
                         </div>
                     </div>
+
+                    <div class="col-12 col-md-6 col-lg-5 mb-md-5">
+                        <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
+                            Adquirência
+                        </p>
+                        <h2 style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50">
+                            Solução ideal para PF e PJ
+                        </h2>
+                        <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">
+                        <strong>Gestão financeira descomplicada:</strong> Oferecemos segurança e praticidade na gestão financeira do seu negócio.
+                        </p>
+                        <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">
+                        <strong>Receba em até 1 dia útil:</strong> Aceite subsídio e crédito na maquininha, parcele em até 21 vezes e receba o pagamento no próximo dia útil, até as 9h da manhã.
+                        </p>
+                        <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">
+                        <strong>Parcelamento Flexível:</strong> Receba e parcele qualquer boleto de consumo em até 21 vezes, seja com cartões próprios ou de CPF's diferentes.
+                        </p>
+                        <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">
+                        <strong>Sem custos de aluguel:</strong> Esqueça mensalidades, aluguel ou comodato.
+                        </p>
+                        <div style="opacity: 1;">
+                            <a onclick='ga("send", "event", "category", "action", "label");' data-home="parceria-oab" title="Saiba mais sobre a parceria OAB" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/parceria-oab">
+                                Saiba mais sobre a parceria
+                            </a>
+                        </div>
+                        </div>
+
+                    </div>
                 </div>
-            </section>
-        </div>
-    </section>
+            </div>
+        </section>
+    </div>
+</section>
 
     {{-- Assitencias --}}
 
     <section class="mb-md-5">
-        <div class="container">
-            <section class="section-apresentation-content py-3">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
-                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-3 fw-600 tag-section span-geral mb-2 order-sm-first d-sm-flex d-md-none d-lg-none d-xl-none order-first">
-                                EstBank Assistência
-                            </p>
-                            <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
-                                <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
-
-                                <picture>
-                                    <source srcset="/img/HOME/doutor-paciente.webp 160w,
-                                        /img/HOME/doutor-paciente.webp 320w,
-                                        /img/HOME/doutor-paciente.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
-                                    <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/doutor-paciente.webp 160w,
-                                        /img/HOME/doutor-paciente.webp 320w,
-                                        /img/HOME/doutor-paciente.webp 640w" src="/img/EMPRESTIMO/FGTSMan" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Médico conversando com paciente">
-                                </picture>
-                                <noscript>
-                                    <picture>
-                                        <source srcset="/img/EMPRESTIMO/FGTSMan 160w,
-                                            /img/HOME/doutor-paciente.webp 320w,
-                                            /img/HOME/doutor-paciente.webp 640w" sizes="(max-width: 500px) 100vw, 500px" />
-                                        <img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/img/HOME/doutor-paciente.webp 160w,
-                                            /img/HOME/doutor-paciente.webp 320w,
-                                            /img/HOME/doutor-paciente.webp 640w" src="/img/HOME/doutor-paciente.webp" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center;  border-radius:15px" alt="Médico conversando com paciente" />
-                                    </picture>
-                                </noscript>
-                            </div>
+    <div class="container">
+        <section class="section-apresentation-content py-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
+                        <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-3 fw-600 tag-section span-geral mb-2 order-sm-first d-sm-flex d-md-none d-lg-none d-xl-none order-first">
+                            EstBank & OAB
+                        </p>
+                        <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
+                            <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
+                            <picture>
+                                <source srcset="/img/HOME/advogado-oab.webp 160w,
+                                    /img/HOME/advogado-oab.webp 320w,
+                                    /img/HOME/advogado-oab.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
+                                <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/advogado-oab.webp 160w,
+                                    /img/HOME/advogado-oab.webp 320w,
+                                    /img/HOME/advogado-oab.webp 640w" src="/img/HOME/advogado-oab.webp" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Imagem relacionada a advogados e OAB">
+                            </picture>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-5 mb-md-5">
-                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
-                                EstBank Assistências</p>
-                            <h2 style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline  title-products"> Cuidado completo com o EstBank. </span>
-                            </h2>
-                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Nossos planos
-                                têm o melhor conjunto de assistências e benefícios, com serviços de excelência
-                                credenciados em todo o Brasil.</p>
-                            <div style="opacity: 1;">
-                                <a onclick='ga("send", "event", "category", "action", "label");' data-home="conhecer-o-estassist" title="Conheça o programa de assistências do Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/estassist"> Conheça o Estassist </a>
-                            </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5 mb-md-5">
+                        <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
+                            EstBank & OAB
+                        </p>
+                        <h2 style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50">
+                            Uma parceria de sucesso
+                        </h2>
+                        <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">
+                            Com o EstBank, a Ordem dos Advogados do Brasil do Ceará (OAB-CE) agora oferece parcelamento de custas judiciais e honorários advocatícios, com exclusividade em todo o estado.
+                        </p>
+                        <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">
+                            Nossos serviços proporcionam maior flexibilidade e praticidade aos profissionais de Direito, conforme destacado pelo presidente da entidade, Erinaldo Dantas.
+                        </p>
+                        <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">
+                            Parcelamento em até 21x e até 4 cartões diferentes!
+                        </p>
+                        <div style="opacity: 1;">
+                            <a onclick='ga("send", "event", "category", "action", "label");' data-home="parceria-oab" title="Saiba mais sobre a parceria OAB" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/parceria-oab">
+                                Saiba mais sobre a parceria
+                            </a>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
-    </section>
+            </div>
+        </section>
+    </div>
+</section>
+
 
     {{-- Emprestimo --}}
     <section>
@@ -474,14 +467,13 @@
                         </div>
                         <div class="col-12 col-md-6 col-lg-5 mb-md-5">
                             <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
-                                EstBank Empréstimos</p>
-                            <h2 class="title-content-itens" style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline  title-products">Crédito fácil com o EstBank.</span></h2>
-                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Com o EstBank,
-                                você tem opções de crédito que são feitas especialmente para você. Não perca mais tempo,
-                                escolha o EstBank para suas necessidades financeiras.</p>
+                                Parcelamento</p>
+                            <h2 class="title-content-itens" style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline  title-products">Cartórios</span></h2>
+                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Agora, oferecemos a possibilidade de parcelamento em até 21 vezes mo cartão de crédito, diretamente na maquininha. Os clientes podem dividir os valores das custas e emulamentos cartorários de forma rápida, fácil e segura.
+                            </p>
                             <div style="opacity: 1;">
-                                <a onclick='ga("send", "event", "category", "action", "label");' data-home="conheca-o-emprestimo-estbank" title="Conheça o empréstimo Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/emprestimo">
-                                    Conheça o Emprestimo do EstBank
+                                <a onclick='ga("send", "event", "category", "action", "label");' data-home="conheca-o-emprestimo-estbank" title="Conheça o empréstimo Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://cartorio.estbank.com.br/">
+                                    Conheça essa iniciativa
                                 </a>
                             </div>
                         </div>
