@@ -356,10 +356,10 @@
                     </li>
                 </ul>
                 <div class=" my-lg-0">
-                    <a href="https://estbank.idez.com.br/app/signup" target="blank"
+                    <a href="https://estbank.zendesk.com/hc/pt-br/articles/4404548776603-Como-criar-uma-conta-EstBank" target="blank"
                         style="text-decoration: none; color:#FFF;"> <button
                             class="btn btn-outline my-2 my-sm-0 btn-open" type="submit"> Abra sua conta </button></a>
-                    <a href="https://estbank.idez.com.br/login" target="blank"> <button
+                    <a href="https://estbank.zendesk.com/hc/pt-br/articles/4404548776603-Como-criar-uma-conta-EstBank" target="blank"> <button
                             class="btn btn-outline my-2 my-sm-0 btn-acess" type="submit">Acessar</button></a>
                 </div>
             </div>

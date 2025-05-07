@@ -56,7 +56,7 @@
                <div class="col-12 col-md-6 col-lg-5">
                 <h2 style="opacity: 1;" class=" title-abra-sua-conta fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline">Abra sua conta PJ e garanta a praticidade no seu dia a dia. </span></h2>
                   <p  class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4"> O EstBank tem aplicações exclusivas para conta PJ, abra sua conta e economize tempo nos processos do dia a dia. </p>
-                  <div style="opacity: 1;"><a onclick='ga("send", "event", "category", "action", "label");' data-home="abrir-conta-estbank" title="Abra sua conta no Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://estbank.idez.com.br/app/signup" target="_blank"> Abra sua conta </a></div>
+                  <div style="opacity: 1;"><a onclick='ga("send", "event", "category", "action", "label");' data-home="abrir-conta-estbank" title="Abra sua conta no Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://estbank.zendesk.com/hc/pt-br/articles/4404548776603-Como-criar-uma-conta-EstBank" target="_blank"> Abra sua conta </a></div>
                </div>
                </div>
             </div>
