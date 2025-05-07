@@ -266,53 +266,51 @@
 
     {{-- FIM DOS CARDS --}} {{-- Para empresas --}}
     <section>
-    <div class="container py-4 mb-2">
+    <div class="container">
         <section class="section-apresentation-content py-3">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-6 col-lg-5 mb-md-5">
-                        <p class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral">
-                            EstBank Empréstimos
-                        </p>
-                        <h2 class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50">
-                            <span class="d-block d-md-inline title-products">Solução financeira completa com o EstBank.</span>
-                        </h2>
-                        <p class="section-resumo-text fs-18 lh-22 mt-4">
-                            Oferecemos opções de crédito com taxas competitivas.
-                        </p>
-                        <div class="row mt-4">
-                            <div class="col-12 mb-3">
-                                <div class="p-3 bg-light rounded">
-                                    <h4>Empréstimo Consignado Privado e Adiantamento Salarial</h4>
-                                    <p>Simplifique suas finanças com um empréstimo descontado direto da folha.</p>
-                                    <ul>
-                                        <li>Carteira assinada em empresa parceira</li>
-                                        <li>Parcelas descontadas na folha de pagamento</li>
-                                        <li>Taxas menores e facilidade na contratação</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="p-3 bg-light rounded">
-                                    <h4>Empréstimo Consignado Público</h4>
-                                    <p>Simplifique suas finanças com um empréstimo descontado direto da folha.</p>
-                                    <ul>
-                                        <li>Facilidade e rapidez na contratação</li>
-                                        <li>Taxas de juros atrativas</li>
-                                        <li>Parcelas descontadas na folha de pagamento</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
                         <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
                             <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
                             <picture>
-                                <source srcset="/img/HOME/man-loan.webp 160w, /img/HOME/man-loan.webp 320w, /img/HOME/man-loan.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
-                                <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/man-loan.webp 160w, /img/HOME/man-loan.webp 320w, /img/HOME/man-loan.webp 640w" src="/img/HOME/man-loan.webp" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Homem sentado com uma mulher de frente para um computador">
+                                <source srcset="/img/HOME/man-loan.webp 160w,
+                                                /img/HOME/man-loan.webp 320w,
+                                                /img/HOME/man-loan.webp 640w"
+                                        sizes="(max-width: 500px) 100vw, 500px">
+                                <img sizes="(max-width: 500px) 100vw, 500px"
+                                     srcset="/img/HOME/man-loan.webp 160w,
+                                             /img/HOME/man-loan.webp 320w,
+                                             /img/HOME/man-loan.webp 640w"
+                                     src="/img/HOME/man-loan.webp"
+                                     loading="lazy"
+                                     style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;"
+                                     alt="Homem com uma mulher olhando pc">
                             </picture>
                         </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-5 mb-md-5">
+                        <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
+                            Emprestimos
+                        </p>
+                        <h2 style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50">
+                            Solução financeira completa com EstBank, oferecemos opções de crédito com taxas competitivas
+                        </h2>
+                        <p class="section-resumo-text fs-18 lh-22 mt-4" style="opacity: 1; margin-bottom: 16px;">
+                        <strong>Emprestimo Consignado Publico:</strong> Simplifique suas finanças com um empréstimo descontado direto da folha, tendo facilidade e rapidez na contratação, taxas de juros atrativas e parcelas descontadas na folha de pagamento.
+                        </p>
+                        <p class="section-resumo-text fs-18 lh-22 mt-4" style="opacity: 1;">
+                        <strong>Emprestimo Consignado Privado e adiantamento salarial:</strong> Simplifique suas finanças com um empréstimo descontado direto da folha com carteira assinada em uma empresa parceira, parcelas descontadas da folha de pagamento, taxas menores e facilidade na contratação.
+                        </p>
+
+                        <div style="opacity: 1;">
+                            <a onclick='ga("send", "event", "category", "action", "label");' data-home="parceria-oab" title="Saiba mais sobre a parceria OAB" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/emprestimo">
+                                Consulte o serviço
+                            </a>
+                        </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -368,7 +366,7 @@
                         <strong>Sem custos de aluguel:</strong> Esqueça mensalidades, aluguel ou comodato.
                         </p>
                         <div style="opacity: 1;">
-                            <a onclick='ga("send", "event", "category", "action", "label");' data-home="parceria-oab" title="Saiba mais sobre a parceria OAB" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/parceria-oab">
+                            <a onclick='ga("send", "event", "category", "action", "label");' data-home="parceria-oab" title="Saiba mais sobre a parceria OAB" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/adquirencia">
                                 Saiba mais sobre a parceria
                             </a>
                         </div>
@@ -446,21 +444,21 @@
                                 <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
 
                                 <picture>
-                                    <source srcset="/img/HOME/man-loan.webp 160w,
-                                        /img/HOME/man-loan.webp 320w,
-                                        /img/HOME/man-loan.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
-                                    <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/man-loan.webp 160w,
-                                        /img/HOME/man-loan.webp 320w,
-                                        /img/HOME/man-loan.webp 640w" src="/img/EMPRESTIMO/FGTSMan" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Homem sentado com uma mulher de frente para um computador">
+                                    <source srcset="/img/HOME/cartorio-home.webp 160w,
+                                        /img/HOME/cartorio-home.webp 320w,
+                                        /img/HOME/cartorio-home.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
+                                    <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/cartorio-home.webp 160w,
+                                        /img/HOME/cartorio-home.webp 320w,
+                                        /img/HOME/cartorio-home.webp 640w" src="/img/EMPRESTIMO/FGTSMan" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Homem sentado com uma mulher de frente para um computador">
                                 </picture>
                                 <noscript>
                                     <picture>
-                                        <source srcset="/img/EMPRESTIMO/FGTSMan 160w,
-                                            /img/HOME/man-loan.webp 320w,
-                                            /img/HOME/man-loan.webp 640w" sizes="(max-width: 500px) 100vw, 500px" />
-                                        <img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/img/HOME/man-loan.webp 160w,
-                                            /img/HOME/man-loan.webp 320w,
-                                            /img/HOME/man-loan.webp 640w" src="/img/HOME/man-loan.webp" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center;  border-radius:15px" alt="Homem sentado com uma mulher de frente para um computador" />
+                                        <source srcset="/img/HOME/cartorio-home.webp 160w,
+                                            /img/HOME/cartorio-home.webp.webp 320w,
+                                            /img/HOME/cartorio-home.webp 640w" sizes="(max-width: 500px) 100vw, 500px" />
+                                        <img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/img/HOME/cartorio-home.webp 160w,
+                                            /img/HOME/cartorio-home.webp 320w,
+                                            /img/HOME/cartorio-home.webp 640w" src="/img/HOME/man-loan.webp" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center;  border-radius:15px" alt="Homem sentado com uma mulher de frente para um computador" />
                                     </picture>
                                 </noscript>
                             </div>
@@ -554,13 +552,7 @@
                             /img/HOME/appLojas550x499.png" src="/img/HOME/appLojas550x499.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
                                 </picture>
                             </noscript>
-
-
                         </div>
-
-
-
-
                     </div>
                 </div>
             </div>
