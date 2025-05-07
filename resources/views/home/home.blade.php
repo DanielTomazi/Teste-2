@@ -491,7 +491,7 @@
                         Abra sua conta hoje, e comece a usar!</h3>
 
                     <div style="opacity: 1; width: 100%;" class="d-flex justify-content-center justify-content-md-start">
-                        <a onclick='ga("send", "event", "category", "action", "label");' data-home="conhecer-a-conta-digital-PJ" title="Abra sua conta" class="btn button-open-account-extra-white btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" data-name="Abra sua conta" href="https://estbank.idez.com.br/app/signup" target="_blank">
+                        <a onclick='ga("send", "event", "category", "action", "label");' data-home="conhecer-a-conta-digital-PJ" title="Abra sua conta" class="btn button-open-account-extra-white btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" data-name="Abra sua conta" href="https://estbank.zendesk.com/hc/pt-br/articles/4404548776603-Como-criar-uma-conta-EstBank" target="_b lank">
                             Abra sua conta
                         </a>
                     </div>

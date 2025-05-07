@@ -173,11 +173,11 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="/conta-digital-pessoa-juridica">Conta Digital</a>
                             <a class="dropdown-item" href="/adquirencia">Maquininhas</a>
+                            <a class="dropdown-item" href="https://gwestbank.mobbuyapp.com/boleto">Link de pagamento</a>
+                            <a class="dropdown-item" href="/emprestimo">Emprestimo Consignado Privado</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/estassist">Assistências</a>
-                    </li>
+
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
@@ -486,9 +486,9 @@
                     <h3 class="mb-3"><strong>Para Você</strong></h3>
                     <ul class="list-unstyled">
                         <li><a href="/conta-digital-pessoa-fisica" class="">Conta Digital</a></li>
-                        <li><a href="/estassist" class="">Assistências</a></li>
                         <li><a href="/emprestimo" class="">Empréstimo</a></li>
                         <li><a href="/cambio" class="">Câmbio</a></li>
+                        <li><a href="https://gwestbank.mobbuyapp.com/boleto" class="">Link de pagamento</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-3 para-empresas-footer">

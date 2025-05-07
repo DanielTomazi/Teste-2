@@ -21,15 +21,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function() {
     return view('.home.home');
 });
-
-
-// Rota para assistências
-
-Route::get('/estassist', function () {
-    return view('.estassist.assistencias'); //rota para assistência médica
-});
-
-
  
 // Rota para adquirência
 
