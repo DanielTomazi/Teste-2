@@ -1,74 +1,8 @@
     @extends('menu') @section('conteudo')
 
 
-    <section class="py-5" style="background: #a03234">
-        <div class="container py-1 py-md-5">
-            <div class="row d-flex align-items-center">
-
-                <div class=" container-fluid col-12 col-md-6 col-lg-6 justify-content-center offset-lg-1 title-conta-digital-pf">
-                    <!--<h1 style="opacity: 1; line-height: 40px; font-family: 'Inter', sans-serif" class="text-center text-md-left text-lg-left text-xl-left d-flex font-weight-bold">Baixe o-->
-                    <!--    app e solicite seu cartão físico EstBank!</h1>-->
-                    <!--<p style="opacity: 1;" class="text-grayscale--400 mt-2 mb-4 text-center text-md-left  text-lg-left  text-xl-left d-flex">-->
-                    <!--    Acesse o app, vá na aba "Cartões" e solicite seu cartão físico EstBank.</p>-->
-                    <h1 style="opacity: 1; line-height: 40px; font-family: 'Inter', sans-serif" class="text-center text-md-left text-lg-left text-xl-left d-flex font-weight-bold">Ofereça o pagamento de honorários parcelado</h1>
-                    <p style="opacity: 1;" class="text-grayscale--400 mt-2 mb-4 text-center text-md-left  text-lg-left  text-xl-left d-flex">
-                        Com a nova parceria entre o EstBank e a OAB, você recebe seus honorários em até 1 dia útil e seu cliente poderá pagar em até 21x no cartão de crédito.</p>
-                       
-                       
-                       <div style="opacity: 1; width:100%;" class="justify-content-center justify-content-lg-start d-flex">
-                   
-               
-                         <a onclick='ga("send", "event", "category", "action", "label");'
-                            data-home="abrir-conta-digital-PJ" title="Saiba Mais"
-                            class="btn button-open-account-extra-white btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center"
-                            href="https://linkdepagamento.estbank.com.br/" target="_blank"> Cadastre-se </a> 
-                    </div>
-                    
-                    
-                     
-                    <div style="opacity: 1; width:100%;" class="justify-content-center justify-content-lg-start d-flex">
-                   
-               
-                         <a onclick='ga("send", "event", "category", "action", "label");'
-                            data-home="abrir-conta-digital-PJ" title="Saiba Mais"
-                            class="btn button-open-account-extra-white btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center"
-                            href="https://www.estbank.com.br/oab" > Saiba Mais </a> 
-                    </div>
-                    
-                    
-                </div>
-
-                <div class=" container col-12 col-md-6 col-xl-5 order-first order-md-last order-lg-last order-xl-last ">
-                    <div class="d-flex" style="position: relative; overflow: hidden; max-width: 400px; max-height: 514px;">
-                        <div aria-hidden="true" style="width: 100%; padding-bottom: 113.158%;"></div>
-                        <img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFD0lEQVQ4y0WUCUyUVxDHZ78FI1VAPKpIi3hFiXgQLYoFRauo0ABW4wEWE0UarSAxXvVCUFMjxNoKkVhPJFZRdtldWEQU7IKWqlCkYlQuuVfOBVeg7H7z75M06SSTNy/5vl9m3vxniIThbiAhN4SQ4y98pWQuiJGgHk0oWE/IDBnDd0N28t2lAVxwgKCfRtCOIvywn6D2k3DHi3D9S2LtSho03CZqy4ukvuxA+ke3WMKtkdSrXi4+snNCQfBUvre1DOogsCYAnLsmFipy5MwRzhwXLoACluEr/llCnBr0HxAgNFyn1t9P2Fh+Ffe0oW6yblW6pSDCyDlrLLjkCb7oMIDfxoFV88H6UDNr1ncgw7+QM719kLGAcEckcnMpISuYKCFsGb2v1Ng25h0k+WeaZC7cY+yqMeB97nFYDg4Dn5RkvjIWnGzDnEwyrroBGd8CmVHgOyH9rJ7jwZlexOqvJPydRrTuMyW19YGKdKqprZWFZR0vBSwpsL9vB8n93xNb90vMh4kRR+AEEZ8j5vNDmFO9+pCxFZy58QJUYaL0DUqLfvtg1YqaqjexXa3NA919Mt4VZ1laNtuhO4y4d6eS+6II1j0CdlQCxyvAKaOYfxnCSCQrXxSZp/veM6cE0IdkPwWyPYneJG4bU3U/HZ1dJnT3dPd3mLrRUlPFNfEhbFxLMEcSeqMkDOwTwFgbIF7JfOpjpnaMJLLgPGHgnP3ugSQHsiQPU5J2BlHLrlnBr85u6W6rr4Kps9naWF+LuvoWfpFyHG82D0fnNgGOsUX/LgWsh5Sw/jQCOK2U5R9t0X52jrEl0de34cwKMp5ZKNHtZaR4F+VOmEpTHkZ/8aIsPwctxnb57csXqH1djbIbKXi8biJqgwmmCAHeM5Stu8hq2uuAiqOLc8STKatOe9PrBD+pPW0Z0aWvbaj8xKIhFeFEDw/TzNzo0TBcOcVVNXVcrM9G+T09nqlUeLg7FCUrJTSuJq7Y4iK/0V5Dc5Ox+mXlq4BB6QnX5dwgGsgWj/SIJLxVEPJnHuMHStSJDCoOB/HT4iK8flaK53otCq6nIjd2Hx7sCMSDC0lIS0qyNtS/xat8TbdqJjlpvYmeJH6nINb7K2DYR8g74Mw6117LCUK/vyT3zCNUb3fHX/dVeJxfCMPNNDzRZqI07z5XPS/j1HNnrfpDm2CMczeI5AilRO/jxoogy1NC3kIxowu9WTMRA3sdZbM/sWmxxKZ5xE2rP8HTy3EoKy1HWVERSv4o5hJDAV6cDLH0JjoDGo+ruDGd+PJ0JSrcBFDjomDNeKH0cS7QuvYh2xWWhJGWD6sVcucShdwxn2BcRPzsWChn3bjGaUejuXytK/dHCslcd4PltscK1nqK8XOX0DWJBEi4xksSLk7XeFZNBrLGwXpxJMzhQhZLSW5d5sgtPjZc5OOE53MV3DSDBhqW2OPDgWGViB47HPGfkmWvo4JvThAZfgRqXUTJ4kx3E/HcGFbPKId+Sr18y63LHDMC7/xtrY3eZG2cTXKtt4O12scOdb6OhraIBS49m0ZTxwZ7BXYLVoriY8n2Yr9NIOgmD7aetbNF1w/aWK+GOuLRrM9ZPbHEfMQZTWJVVq+fJhrlh7q1zueICskY5ELtoU6SKcyOxNT8b9AKYetmCdg0UbaHEoZYktWbCX+Kfadb4YSi5d8YI8cfqY+Y3lO3cXxkffgUMgnJtYaNkZqD7KnFz4a6T64aZP0LTZY0kpPfqVoAAAAASUVORK5CYII=" alt="" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;">
-                        <picture>
-                            <source srcset="/img/CONTAPF/heroPfAccount01.png 138w,
-                  /img/CONTAPF/heroPfAccount02.png 275w,
-                     /img/CONTAPF/heroPfAccount03.png 550w" sizes="(max-width: 550px) 100vw, 550px">
-
-
-
-                            <img sizes="(max-width: 550px) 100vw, 550px" srcset="/img/CONTAPF/heroPfAccount01.png 138w,
-                     /img/CONTAPF/heroPfAccount02.png 275w,
-                     /img/CONTAPF/heroPfAccount03.png" src=" /img/CONTAPF/heroPfAccount02.png" alt="" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
-                        </picture>
-                        <noscript>
-                            <picture>
-                                <source srcset="/img/CONTAPF/heroPfAccount01.png 138w,
-                         /img/CONTAPF/heroPfAccount02.png 275w,
-                        /img/CONTAPF/heroPfAccount03.png" sizes="(max-width: 550px) 100vw, 550px" />
-                                <img loading="lazy" sizes="(max-width: 550px) 100vw, 550px" srcset="/img/CONTAPF/heroPfAccount01.png 138w,
-                         /img/CONTAPF/heroPfAccount02.png 275w,
-                        /img/CONTAPF/heroPfAccount03.png" src="/img/CONTAPF/heroPfAccount03.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
-                            </picture>
-                        </noscript>
-                    </div>
-                </div>
-
-
-
-            </div>
+    <section class="banner-estbank section-one">
+    <img src="/img/HOME/empresa-banner.png" alt="Banner EstBank">
     </section>
 
     {{-- Inicio dos Cards --}}

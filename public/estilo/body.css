@@ -62,6 +62,27 @@ body{
 }
 /* Botões */
 
+/* Estilo para o banner, isolando de outros resets */
+.banner-estbank {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #a03234; /* só para garantir o fundo */
+    margin: 0;
+    padding: 0;
+}
+
+.banner-estbank img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
+}
+
 .button-open-account-extra-white{
     font-family: Inter,Arial,Helvetica,sans-serif;
     box-sizing: border-box;
