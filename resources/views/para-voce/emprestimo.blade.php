@@ -11,7 +11,7 @@
           <div class=" container col-12 col-md-6 col-lg-4 justify-content-center offset-lg-1 title-conta-digital-pf  ">
                <h3 style="opacity: 1;" class=" fs-24 lh-30 fs-lg-32 fs-xl-40 lh-lg-40 lh-xl-50 text-center text-md-left  text-lg-left  text-xl-left d-flex hero-text-title">Solução financeira completa com o EstBank.</h3>
             <p class="text-center text-md-left text-lg-left  text-xl-left">Oferecemos opções de crédito com taxas competitivas.</p>
-            <div style="opacity: 1;"><a onclick='ga("send", "event", "category", "action", "label");' data-home="emprestimo" title="Simule seu empréstimo" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://consignado.moneyp.com.br/estbank" target="_blank"> Simular empréstimo </a></div>
+            <div style="opacity: 1;"><a onclick='ga("send", "event", "category", "action", "label");' data-home="emprestimo" title="Simule seu empréstimo" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://api.whatsapp.com/send?phone=5511998016524&text=Ol%C3%A1,%20eu%20quero%20simular%20um%20empr%C3%A9stimo.%20Poderia%20me%20ajudar%20a%20encontrar%20as%20melhores%20condi%C3%A7%C3%B5es?&alias=EstBank" target="_blank"> Simular empréstimo </a></div>
 
             </div> 
 
