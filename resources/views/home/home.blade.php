@@ -14,23 +14,6 @@
         </div>
 
         <div class="owl-carousel owl-theme">
-            <!-- Card Rendimento -->
-            <div class="item items item-01">
-                <div class="title-card">
-                    <div class="title-icon-card">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
-                            <path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2zm1 17.93c-2.83.48-5.73-1.02-6.8-3.67-.39-.95.28-1.94 1.3-1.94h10.99c1.02 0 1.69.99 1.3 1.94-1.07 2.65-3.97 4.15-6.79 3.67z"/>
-                        </svg>
-                    </div>
-                </div>
-                <div>
-                    <div class="title-text-card">
-                        <span>Rendimento</span>
-                    </div>
-                    <p class="text-card">No EstBank seu saldo pode render até 100% do CDI.</p>
-                </div>
-            </div>
-
             <!-- Card TED -->
             <div class="item items item-01">
                 <div class="title-card">
