@@ -336,7 +336,7 @@
                             Parcelamento em até 21x e até 4 cartões diferentes!
                         </p>
                         <div style="opacity: 1;">
-                            <a onclick='ga("send", "event", "category", "action", "label");' data-home="parceria-oab" title="Saiba mais sobre a parceria OAB" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="/parceria-oab">
+                            <a onclick='ga("send", "event", "category", "action", "label");' data-home="parceria-oab" title="Saiba mais sobre a parceria OAB" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://pagamentos.estbank.com.br/advogados">
                                 Saiba mais sobre a parceria
                             </a>
                         </div>
@@ -389,6 +389,56 @@
                             <div style="opacity: 1;">
                                 <a onclick='ga("send", "event", "category", "action", "label");' data-home="conheca-o-emprestimo-estbank" title="Conheça o empréstimo Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://cartorio.estbank.com.br/">
                                     Conheça essa iniciativa
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    {{-- Emprestimo --}}
+    <section>
+        <div class="container">
+            <section class="section-apresentation-content py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="style__ImgSize-sc-844pq-1 dWxXah col-12 col-md-6 offset-lg-1 order-md-last">
+                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-3 fw-600 tag-section span-geral mb-2 order-sm-first d-sm-flex d-md-none d-lg-none d-xl-none order-first">
+                                EstBank Transf. Lote</p>
+                            <div class="mb-4" style="position: relative; overflow: hidden; max-width: 500px; max-height: 478px;">
+                                <div aria-hidden="true" style="width: 100%; padding-bottom: 75%;"></div>
+
+                                <picture>
+                                    <source srcset="/img/HOME/folha-pagamento.webp 160w,
+                                        /img/HOME/folha-pagamento.webp 320w,
+                                        /img/HOME/folha-pagamento.webp 640w" sizes="(max-width: 500px) 100vw, 500px">
+                                    <img sizes="(max-width: 500px) 100vw, 500px" srcset="/img/HOME/cartorio-home.webp 160w,
+                                        /img/HOME/folha-pagamento.webp 320w,
+                                        /img/HOME/folha-pagamento.webp 640w" src="/img/EMPRESTIMO/FGTSMan" loading="lazy" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s; border-radius:15px;" alt="Homem sentado com uma mulher de frente para um computador">
+                                </picture>
+                                <noscript>
+                                    <picture>
+                                        <source srcset="/img/HOME/folha-pagamento.webp 160w,
+                                            /img/HOME/folha-pagamento.webp.webp 320w,
+                                            /img/HOME/folha-pagamento.webp 640w" sizes="(max-width: 500px) 100vw, 500px" />
+                                        <img loading="lazy" sizes="(max-width: 640px) 100vw, 640px" srcset="/img/HOME/folha-pagamento.webp 160w,
+                                            /img/HOME/folha-pagamento.webp 320w,
+                                            /img/HOME/folha-pagamento.webp 640w" src="/img/HOME/folha-pagamento.webp" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center;  border-radius:15px" alt="Homem sentado com uma mulher de frente para um computador" />
+                                    </picture>
+                                </noscript>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5 mb-md-5">
+                            <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
+                                Para sua empresa</p>
+                            <h2 class="title-content-itens" style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline  title-products">Transferência em lote</span></h2>
+                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">A solução da EstBank para transfrência em lote oferece praticidade e segurança no processamento salarial e em outras demandas. Com integração direta à conta EstBank, permite o pagamento de colaboradores de forma automatizada, rápida e conforme a legislação vigente. Ideal para empresas que buscam agilidade, redução de erros e controle eficiente da gestão de pessoal.
+                            </p>
+                            <div style="opacity: 1;">
+                                <a onclick='ga("send", "event", "category", "action", "label");' data-home="conheca-o-emprestimo-estbank" title="Conheça o empréstimo Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://estbank.idez.com.br/batch-transfers">
+                                    Verificar produto
                                 </a>
                             </div>
                         </div>

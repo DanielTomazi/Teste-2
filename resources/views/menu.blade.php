@@ -173,7 +173,8 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="/conta-digital-pessoa-juridica">Conta Digital</a>
                             <a class="dropdown-item" href="/adquirencia">Maquininhas</a>
-                            <a class="dropdown-item" href="https://gwestbank.mobbuyapp.com/boleto">Link de pagamento</a>
+                            <a class="dropdown-item" href="https://linkdepagamento.estbank.com.br/">Link de pagamento (Advogados)</a>
+                            <a class="dropdown-item" href="https://linkdepagamento.estbank.com.br/form">Link de pagamento (Geral)</a>
                             <a class="dropdown-item" href="/emprestimo">Emprestimo Consignado Privado</a>
                         </div>
                     </li>
@@ -488,7 +489,7 @@
                         <li><a href="/conta-digital-pessoa-fisica" class="">Conta Digital</a></li>
                         <li><a href="/emprestimo" class="">Empréstimo</a></li>
                         <li><a href="/cambio" class="">Câmbio</a></li>
-                        <li><a href="https://gwestbank.mobbuyapp.com/boleto" class="">Link de pagamento</a></li>
+                        <li><a href="https://linkdepagamento.estbank.com.br/form" class="">Link de pagamento</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-3 para-empresas-footer">
