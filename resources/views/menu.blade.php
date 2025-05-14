@@ -174,7 +174,7 @@
                             <a class="dropdown-item" href="/conta-digital-pessoa-juridica">Conta Digital</a>
                             <a class="dropdown-item" href="/adquirencia">Maquininhas</a>
                             <a class="dropdown-item" href="https://linkdepagamento.estbank.com.br/">Link de pagamento (Advogados)</a>
-                            <a class="dropdown-item" href="https://linkdepagamento.estbank.com.br/form">Link de pagamento (Geral)</a>
+                            <a class="dropdown-item" href="https://linkdepagamento.estbank.com.br/form">Link de pagamento (Cartório/Imobiliaria)</a>
                             <a class="dropdown-item" href="/emprestimo">Emprestimo Consignado Privado</a>
                         </div>
                     </li>

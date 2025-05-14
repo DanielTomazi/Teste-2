@@ -13,7 +13,7 @@
                <h3 style="opacity: 1;" class=" fs-24 lh-30 fs-lg-32 fs-xl-40 lh-lg-40 lh-xl-50 text-center text-md-left  text-lg-left  text-xl-left d-flex hero-text-title">Sua conta digital, feita do jeito que você precisa</h3>
              <p style="opacity: 1;" class="fs-18 lh-22 text-grayscale--400 mt-4 text-center text-md-left  text-lg-left  text-xl-left d-flex">Economize tempo com o aplicativo do EstBank e tenha tudo na palma da sua mão</p>
              <div style="opacity: 1; width:100%;" class="justify-content-center d-flex" >
-               <a onclick='ga("send", "event", "category", "action", "label");' data-home="abrir-conta-digital-PJ" title="Abra sua conta no Estbank" class="btn button-open-account-extra-white btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://estbank.idez.com.br/app/signup" target="_blank"> Abra sua conta </a>
+               <a onclick='ga("send", "event", "category", "action", "label");' data-home="abrir-conta-digital-PJ" title="Abra sua conta no Estbank" class="btn button-open-account-extra-white btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://estbank.zendesk.com/hc/pt-br/articles/4404548776603-Como-criar-uma-conta-EstBank" target="_blank"> Abra sua conta </a>
             </div>
           </div> 
 
@@ -60,175 +60,179 @@
 
 {{-- Inicio dos Cards --}}
 
- 
-<div class="container-fluid ">
-   
-   <div class="container">
-      <div class="container mb-3">
-         <p class="tag-cards-pf ">Conheça os benefícios: </p>
-      </div>
+    <<div class="container-fluid cards py-3">
+    <div class="container">
+        <div class="py-2">
+            <p class="tag-cards py-2">No EstBank você tem:</p>
+        </div>
 
- 
-      <!-- Card PIX -->
-      <div class="owl-carousel owl-theme">
-         <div class="item-pf items item-01">
-            <div class="title-card">
-               <div class="title-icon-card">
-                  <picture>
-               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0H24V24H0z"/><path d="M5 3v16h16v2H3V3h2zm15.293 3.293l1.414 1.414L16 13.414l-3-2.999-4.293 4.292-1.414-1.414L13 7.586l3 2.999 4.293-4.292z" fill="rgba(160,50,52,1)"/></svg>
-               </div>
+        <div class="owl-carousel owl-theme">
+            <!-- Card TED -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14h2V5h14v14h2V5c0-1.1-.9-2-2-2z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>TED</span>
+                    </div>
+                    <p class="text-card">Transfira com segurança e rapidez com o EstBank.</p>
+                </div>
             </div>
-            <div>
-              <div class="title-text-card"> 
-                  <span> Rendimento </span>
-               </div>
 
-               <p class="text-card-pf">No EstBank seu saldo pode render até <b class="vermelho"> 100%   do CDI automaticamente.</b></p> 
+            <!-- Card PIX -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M12 4l1.41 1.41L7.83 11H20v2H7.83l5.58 5.59L12 20l-8-8z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>PIX</span>
+                    </div>
+                    <p class="text-card">Receba e faça PIX com taxas acessíveis.</p>
+                </div>
+            </div>
 
-               </div>
-         </div>
-         <!-- Card TED -->
-         <div class="item-pf items item-01">
-            <div class="title-card">
-               <div class="title-icon-card">
-                  <picture>
-                     <picture><img src="https://i.ibb.co/Br1G1Mx/Group-2.png" style="max-width: 30px; max-height: 30px;" alt=""></picture>
-                  </div>
+            <!-- Card Empréstimo -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M12 7V3L8 7h3v4h2V7h3l-4-4zM4 13h16v2H4z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Empréstimo</span>
+                    </div>
+                    <p class="text-card">Temos condições especiais para você.</p>
+                </div>
             </div>
-            <div>
-              <div class="title-text-card"> 
-                  <span> PIX </span>
-               </div>
 
-               <p class="text-card-pf"> No EstBank você recebe e faz PIX com <b class="vermelho"> taxas que cabem no seu bolso. </b></p>
+            <!-- Card Folha de Pagamento -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zm0-8v2h14V9H7z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Folha de Pagamento</span>
+                    </div>
+                    <p class="text-card">Facilite o pagamento dos seus funcionários.</p>
+                </div>
             </div>
-         </div>
-         <!-- Card Boleto -->
-         <div class="item-pf items item-01">
-            <div class="title-card">
-               <div class="title-icon-card">
-                  <picture>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M19 22H5a3 3 0 0 1-3-3V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12h4v4a3 3 0 0 1-3 3zm-1-5v2a1 1 0 0 0 2 0v-2h-2zm-2 3V4H4v15a1 1 0 0 0 1 1h11zM6 7h8v2H6V7zm0 4h8v2H6v-2zm0 4h5v2H6v-2z" fill="rgba(160,3,35,1)"/></svg>      
-                           </div>
-            </div>
-            <div>
-              <div class="title-text-card"> 
-                  <span> Pagamentos </span>
-               </div>
 
-               <p class="text-card-pf"> <b class="vermelho"> Economize tempo </b> pagando boletos através do aplicativo do EstBank.
-               </p>
+            <!-- Card Boletos -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M21 11H6.83l5.58-5.59L11 4l-8 8 8 8 1.41-1.41L6.83 13H21v-2z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Boletos</span>
+                    </div>
+                    <p class="text-card">Boletos para suas cobranças pessoais e pagamentos de contas.</p>
+                </div>
             </div>
-         </div>
-          
-         <!-- Card Emprestimo -->
-         <div class="item-pf items item-01">
-            <div class="title-card">
-               <div class="title-icon-card">
-                  <picture>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
-                        <path fill="none" d="M0 0h24v24H0z"/>
-                        <path d="M5 9a1 1 0 0 1 1 1 6.97 6.97 0 0 1 4.33 1.5h2.17c1.333 0 2.53.58 3.354 1.5H19a5 5 0 0 1 4.516 2.851C21.151 18.972 17.322 21 13 21c-2.79 0-5.15-.603-7.06-1.658A.998.998 0 0 1 5 20H2a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h3zm1.001 3L6 17.022l.045.032C7.84 18.314 10.178 19 13 19c3.004 0 5.799-1.156 7.835-3.13l.133-.133-.12-.1a2.994 2.994 0 0 0-1.643-.63L19 15h-2.111c.072.322.111.656.111 1v1H8v-2l6.79-.001-.034-.078a2.501 2.501 0 0 0-2.092-1.416L12.5 13.5H9.57A4.985 4.985 0 0 0 6.002 12zM4 11H3v7h1v-7zm14-6a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-7-5a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" fill="rgba(160,50,52,1)"/>
-                     </svg>
-                  </picture>
-               </div>
-            </div>
-            <div>
-               <div class="title-text-card "> 
-                  <span  class="text-card-title"> Empréstimo </span>
-               </div>
-               <p class="text-card-pf"> 
-                  Precisando de dinheiro?
-                  O <b class="vermelho">EstBank tem condições 
-                  especiais para você.</b>       
-               </p>
-            </div>
-         </div>
 
-
-         <!-- Card Doação -->
-         <div class="item-pf items item-01">
-            <div class="title-card">
-               <div class="title-icon-card">
-                  <picture>
-                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2V4H5v16h14zM8 9h8v2H8V9zm0 4h8v2H8v-2z" fill="rgba(160,50,52,1)"/></svg>                  
-                  </picture>
-               </div>
+            <!-- Card Cartão Físico -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M20 4H4c-1.1 0-2 .9-2 2v3h20V6c0-1.1-.9-2-2-2zm0 13H4v-5h16v5zm0-7H4v-2h16v2z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Cartão Físico</span>
+                    </div>
+                    <p class="text-card">Peça já seu cartão físico EstBank com uso internacional.</p>
+                </div>
             </div>
-            <div>
-               <div class="title-text-card "> 
-                  <span  class="text-card-title"> Folha de Pagamento </span>
-               </div>
-               <p class="text-card-pf"> 
-                 <b class="vermelho">Facilite o pagamento dos seus funcionários </b>  com o módulo folha de pagamento. </p>
+
+            <!-- Card Recargas -->
+            <div class="item items item-01">
+                <div class="title-card">
+                    <div class="title-icon-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#a03234" viewBox="0 0 24 24">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.41 4.42 3 7.5 3c2.54 0 4.87 1.61 5.5 4.09C13.63 4.61 15.96 3 18.5 3 21.58 3 24 5.41 24 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="title-text-card">
+                        <span>Recargas</span>
+                    </div>
+                    <p class="text-card">Recarregue seu celular com facilidade e praticidade.</p>
+                </div>
             </div>
-         </div>
-
-
-      </div>
-   </div>
+        </div>
+    </div>
 </div>
 
-<script>
-   $(document).ready(function(){
-       $(".owl-carousel").owlCarousel({
-   
-           loop:true,
-           dots:false,
-           responsive:{
-               0 : {
-                    items : 1.2,
-                    loop:true,
-                    nav:false,
-                    indicator:true,
-                    rewind: true,
-                    slideBy:true,
-                    dots:true,                 
-                    autoplayHoverPause:true,
-               },
-   
-               600 : {
-                   items : 3,
-                   loop:false,
-                   indicator:true,
-                   dots:false,
-                   autoplayHoverPause:true,
-               },
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1.7,
+                        loop: true,
+                        nav: false,
+                        indicator: true,
+                        rewind: true,
+                        slideBy: true,
+                        dots: true,
+                        autoplayHoverPause: true,
+                    },
 
-               700: 
-               {
-                  items: 3.1,
-                  loop:true,
-                   indicator:true,
-                   dots:false,
-                   nav:true,
+                    600: {
+                        items: 3.1,
+                        loop: false,
+                        indicator: true,
+                        dots: true,
+                        autoplayHoverPause: true,
+                    },
 
+                    700: {
+                        items: 4,
+                    },
 
-               },
-   
-               1200 : {
-                    items : 5.1,
-                    loop:false,
-                    nav:true,
-                    indicator:true,
-                    rewind: true,
-                    slideBy:true,
-                    dots:false,
-                    autoplay:true,
-                    autoplayHoverPause:true,
-                },           
-               
-               
-           },
-   
-           center:false,
-         
-        
-   
-   
-       })
-   })
-</script>
+                    1200: {
+                        items: 6,
+                        loop: false,
+                        nav: false,
+                        indicator: true,
+                        rewind: true,
+                        slideBy: true,
+                        dots: true,
+                    },
+                },
+
+                center: false,
+            });
+        });
+    </script>
 
 {{-- FIM DOS CARDS --}}
          
