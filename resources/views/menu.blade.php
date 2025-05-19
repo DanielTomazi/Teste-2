@@ -488,8 +488,8 @@
                     <ul class="list-unstyled">
                         <li><a href="/conta-digital-pessoa-fisica" class="">Conta Digital</a></li>
                         <li><a href="/emprestimo" class="">Empréstimo</a></li>
-                        <li><a href="/cambio" class="">Câmbio</a></li>
                         <li><a href="https://linkdepagamento.estbank.com.br/form" class="">Link de pagamento</a></li>
+                        <li><a href="https://linkdepagamento.estbank.com.br/form" class="">Link de pagamento (Advogados)</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-3 para-empresas-footer">
@@ -498,7 +498,6 @@
                         <li><a href="/conta-digital-pessoa-juridica" class="">Conta Digital</a></li>
                         <li><a href="/adquirencia" class="">Adquirência</a></li>
                         <li><a href="/emprestimo" class="">Empréstimo</a></li>
-                        <li><a href="/cambio" class="">Câmbio</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-3  text-sm-start mt-4 mt-sm-0 atendimento-footer">
