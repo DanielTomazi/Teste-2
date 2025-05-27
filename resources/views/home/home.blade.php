@@ -1,8 +1,7 @@
     @extends('menu') @section('conteudo')
 
-
     <section class="banner-estbank section-one">
-    <img src="/img/HOME/empresa-banner.png" alt="Banner EstBank">
+    <img class="only-desktop" src="/img/HOME/empresa-banner.png" alt="Banner EstBank">
     </section>
 
     {{-- Inicio dos Cards --}}
@@ -578,14 +577,53 @@
             </div>
         </div>
 
-
-
-
     </section>
+    
+    
+
+    <style>
+
+    {{-- Banner da empresa para mobile --}}
+
+        @media screen and (max-width: 768px) {
+        .only-desktop {
+        display: none !important;
+            }
+        }
+
+    {{-- Visualização de produtos no Mobile --}}
+
+        @media screen and (max-width: 768px) {
+  .section-apresentation-content h2,
+  .section-apresentation-content p,
+  .section-apresentation-content .tag-section {
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .section-apresentation-content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .section-apresentation-content p {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: calc(100% - 32px);
+    text-align: center;
+  }
+}
 
     {{-- CSS do Carousel --}}
 
-    <style>
         .swiper {
             margin-top: 73px;
             width: 100%;
