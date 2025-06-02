@@ -1,9 +1,27 @@
     @extends('menu') @section('conteudo')
 
+    <section class="section-one emprestimo-hero align-items-center d-flex">
+    <div class="container py-2">
+       <div class="row align-items-center">
+
+          <div class=" container col-12 col-md-6 col-lg-4 justify-content-center offset-lg-1 title-conta-digital-pf  ">
+               <h3 style="opacity: 1;" class=" fs-24 lh-30 fs-lg-32 fs-xl-40 lh-lg-40 lh-xl-50 text-center text-md-left  text-lg-left  text-xl-left d-flex hero-text-title">Solução financeira completa com o EstBank.</h3>
+            <p class="text-center text-md-left text-lg-left  text-xl-left">Oferecemos opções de crédito com taxas competitivas através de consignado publico, privado e também o adiantamento salarial.</p>
+            <div style="opacity: 1;"><a onclick='ga("send", "event", "category", "action", "label");' data-home="emprestimo" title="Simule seu empréstimo" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://api.whatsapp.com/send?phone=5511998016524&text=Ol%C3%A1,%20eu%20quero%20simular%20um%20empr%C3%A9stimo.%20Poderia%20me%20ajudar%20a%20encontrar%20as%20melhores%20condi%C3%A7%C3%B5es?&alias=EstBank" target="_blank"> Entre em contato conosco </a></div>
+
+            </div> 
+         </div>
+       </div>
+    </section>
+
+
+   <!-- {{-- CÓDIGO REFERENTE A REDEFINIÇÃO SOLICITADA POR BRUNO/STENIO --}}
+     
     <section class="banner-estbank section-one">
     <img class="only-desktop" src="/img/HOME/empresa-banner.png" alt="Banner EstBank">
     </section>
-
+    -->
+    
     {{-- Inicio dos Cards --}}
 
     <<div class="container-fluid cards py-3">
@@ -383,7 +401,7 @@
                             <p style="opacity: 1;" class="fs-16 fs-md-20 fs-xl-24 lh-20 lh-md-25 lh-xl-30 mt-4 mt-md-0 mb-2 fw-600 tag-section span-geral mb-2 order-sm-first d-none d-md-flex">
                                 Parcelamento</p>
                             <h2 class="title-content-itens" style="opacity: 1;" class="fs-24 fs-lg-32 fs-xl-40 lh-30 lh-lg-40 lh-xl-50"><span class="d-block d-md-inline  title-products">Cartórios</span></h2>
-                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Agora, oferecemos a possibilidade de parcelamento em até 21 vezes mo cartão de crédito, diretamente na maquininha. Os clientes podem dividir os valores das custas e emulamentos cartorários de forma rápida, fácil e segura.
+                            <p class="section-resumo-text" style="opacity: 1;" class="fs-18 lh-22 mt-4">Agora, oferecemos a possibilidade de parcelamento em até 21 vezes no cartão de crédito, diretamente na maquininha. Os clientes podem dividir os valores das custas e emulamentos cartorários de forma rápida, fácil e segura.
                             </p>
                             <div style="opacity: 1;">
                                 <a onclick='ga("send", "event", "category", "action", "label");' data-home="conheca-o-emprestimo-estbank" title="Conheça o empréstimo Estbank" class="btn btn-red--extra btn--lg rounded-4 fs-14 fw-600 text-none mt-4 text-md-center" href="https://cartorio.estbank.com.br/">
